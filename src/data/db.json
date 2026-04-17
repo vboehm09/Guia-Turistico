@@ -1,1006 +1,1256 @@
 {
     "pontos": [
         {
-            "id": 1,
+            "id": "1",
             "nome": "Cristo Redentor",
             "descricao": "Ícone do Rio de Janeiro e uma das maravilhas do mundo moderno.",
             "cidade": "Rio de Janeiro",
             "endereco": "Parque Nacional da Tijuca",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZvZQv0GlUpFyX0Ewv8QLKimCU61PBM0qzKA&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZvZQv0GlUpFyX0Ewv8QLKimCU61PBM0qzKA&s",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         },
         {
-            "id": 2,
+            "id": "2",
             "nome": "Praia de Copacabana",
             "descricao": "Uma das praias mais famosas do mundo, conhecida por seu calçadão.",
             "cidade": "Rio de Janeiro",
             "endereco": "Av. Atlântica",
-            "imagemUrl": "https://fortedecopacabana.com.br/wp-content/uploads/2025/05/o-que-fazer-na-praia-de-Copacabana.png"
+            "imagemUrl": "https://fortedecopacabana.com.br/wp-content/uploads/2025/05/o-que-fazer-na-praia-de-Copacabana.png",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         },
         {
-            "id": 3,
+            "id": "3",
             "nome": "Pão de Açúcar",
             "descricao": "Complexo de morros acessível por teleférico com vista incrível.",
             "cidade": "Rio de Janeiro",
             "endereco": "Av. Pasteur, 520",
-            "imagemUrl": "https://cdn.sanity.io/images/nxpteyfv/goguides/2e7ab2c60e581dc70b3aa5ee83ed5170d4198bee-1600x1067.jpg"
+            "imagemUrl": "https://cdn.sanity.io/images/nxpteyfv/goguides/2e7ab2c60e581dc70b3aa5ee83ed5170d4198bee-1600x1067.jpg",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         },
         {
-            "id": 4,
+            "id": "4",
             "nome": "Arcos da Lapa",
             "descricao": "Aqueduto do século XVIII e ponto de encontro da boemia carioca.",
             "cidade": "Rio de Janeiro",
             "endereco": "Largo da Lapa",
-            "imagemUrl": "https://prefeitura.rio/wp-content/uploads/2025/08/ccd73270-65c6-4ce2-9285-aa8a21f8ae60-scaled.jpg"
+            "imagemUrl": "https://prefeitura.rio/wp-content/uploads/2025/08/ccd73270-65c6-4ce2-9285-aa8a21f8ae60-scaled.jpg",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         },
         {
-            "id": 5,
+            "id": "5",
             "nome": "Museu de Arte de São Paulo (MASP)",
             "descricao": "Um dos mais importantes museus do hemisfério sul, com arquitetura icônica.",
             "cidade": "São Paulo",
             "endereco": "Av. Paulista, 1578",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA3dht9E4NW0hPR9_Q0EYehoaWoS5maA7wHQ&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA3dht9E4NW0hPR9_Q0EYehoaWoS5maA7wHQ&s",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         },
         {
-            "id": 6,
+            "id": "6",
             "nome": "Parque Ibirapuera",
             "descricao": "O coração verde de São Paulo, ótimo para caminhadas e cultura.",
             "cidade": "São Paulo",
             "endereco": "Av. Pedro Álvares Cabral",
-            "imagemUrl": "https://admin.mac.com.br/wp-content/uploads/2024/11/o-que-fazer-no-ibirapuera-guia-completo-das-melhores-atracoes-thumbnail.webp"
+            "imagemUrl": "https://admin.mac.com.br/wp-content/uploads/2024/11/o-que-fazer-no-ibirapuera-guia-completo-das-melhores-atracoes-thumbnail.webp",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         },
         {
-            "id": 7,
+            "id": "7",
             "nome": "Torre Eiffel",
             "descricao": "O marco mais famoso de Paris, oferecendo vistas deslumbrantes da cidade.",
             "cidade": "Paris",
             "endereco": "Champ de Mars, 5 Avenue Anatole France",
-            "imagemUrl": "https://cdn-imgix.headout.com/media/images/c90f7eb7a5825e6f5e57a5a62d05399c-25058-BestofParis-EiffelTower-Cruise-Louvre-002.jpg?auto=compress%2Cformat&q=90&crop=faces&fit=crop"
+            "imagemUrl": "https://cdn-imgix.headout.com/media/images/c90f7eb7a5825e6f5e57a5a62d05399c-25058-BestofParis-EiffelTower-Cruise-Louvre-002.jpg?auto=compress%2Cformat&q=90&crop=faces&fit=crop",
+            "pais": "França",
+            "bandeira": "🇫🇷"
         },
         {
-            "id": 8,
+            "id": "8",
             "nome": "Museu do Louvre",
             "descricao": "Um dos maiores museus de arte do mundo, localizado em Paris.",
             "cidade": "Paris",
             "endereco": "Rue de Rivoli, 75001 Paris, França",
-            "imagemUrl": "https://cdn.assets-casacor.tec.br/file/casacor-images-news/2025/10/louvre-chrys-hadrian-1.webp"
+            "imagemUrl": "https://cdn.assets-casacor.tec.br/file/casacor-images-news/2025/10/louvre-chrys-hadrian-1.webp",
+            "pais": "França",
+            "bandeira": "🇫🇷"
         },
         {
-            "id": 9,
+            "id": "9",
             "nome": "Lago Negro",
             "descricao": "Lindo lago artificial cercado por árvores trazidas da Floresta Negra.",
             "cidade": "Gramado",
             "endereco": "R. J. Renner, Bairro Planalto",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/23/72/e4/foto-em-hdr-que-fiz-do.jpg?w=900&h=500&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/23/72/e4/foto-em-hdr-que-fiz-do.jpg?w=900&h=500&s=1",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         },
         {
-            "id": 10,
+            "id": "10",
             "nome": "Catedral de Notre-Dame",
             "descricao": "Ícone gótico com vitrais deslumbrantes e história fascinante.",
             "cidade": "Paris",
             "endereco": "6 Parvis Notre-Dame - Pl. Jean-Paul II",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUEvkt_F68Vu8hNc5wUPkLFA2P6Ok9TVlagg&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUEvkt_F68Vu8hNc5wUPkLFA2P6Ok9TVlagg&s",
+            "pais": "França",
+            "bandeira": "🇫🇷"
         },
         {
-            "id": 11,
+            "id": "11",
             "nome": "Coliseu",
             "descricao": "O Coliseu é um anfiteatro romano icônico, conhecido por suas grandiosas estruturas e eventos históricos.",
             "cidade": "Roma",
             "endereco": "Piazza del Colosseo, 1",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg"
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg",
+            "pais": "Itália",
+            "bandeira": "🇮🇹"
         },
         {
-            "id": 12,
+            "id": "12",
             "nome": "Promenade des Anglais",
             "descricao": "A famosa avenida à beira-mar, perfeita para caminhadas e apreciar a vista do Mediterrâneo.",
             "cidade": "Nice",
             "endereco": "Promenade des Anglais",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/33/84/4a/photo0jpg.jpg?w=900&h=-1&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/33/84/4a/photo0jpg.jpg?w=900&h=-1&s=1",
+            "pais": "França",
+            "bandeira": "🇫🇷"
         },
         {
-            "id": 13,
+            "id": "13",
             "nome": "Colline du Château",
             "descricao": "Parque com ruínas históricas, cachoeira artificial e uma vista panorâmica incrível da Baie des Anges.",
             "cidade": "Nice",
             "endereco": "Montée du Château",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwt-D10L3Omom9_G_T1gQfgTHDwcvN9toXcQ&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwt-D10L3Omom9_G_T1gQfgTHDwcvN9toXcQ&s",
+            "pais": "França",
+            "bandeira": "🇫🇷"
         },
         {
-            "id": 14,
+            "id": "14",
             "nome": "Estatua da Liberdade",
             "descricao": "Símbolo icônico da liberdade e democracia, localizada em Nova York.",
             "cidade": "Nova York",
             "endereco": "Liberty Island",
-            "imagemUrl": "https://www.todoestudo.com.br/wp-content/uploads/2020/07/estatua-da-liberdade-01.jpg"
+            "imagemUrl": "https://www.todoestudo.com.br/wp-content/uploads/2020/07/estatua-da-liberdade-01.jpg",
+            "pais": "Estados Unidos",
+            "bandeira": "🇺🇸"
         },
         {
-            "id": 15,
+            "id": "15",
             "nome": "Central Park",
             "descricao": "Enorme parque urbano no coração de Manhattan, com lagos, trilhas e atrações culturais.",
             "cidade": "Nova York",
             "endereco": "New York, NY",
-            "imagemUrl": "https://www.civitatis.com/f/pois/ChIJ4zGFAZpYwokRGUGph3Mf37k.jpg"
+            "imagemUrl": "https://www.civitatis.com/f/pois/ChIJ4zGFAZpYwokRGUGph3Mf37k.jpg",
+            "pais": "Estados Unidos",
+            "bandeira": "🇺🇸"
         },
         {
-            "id": 16,
+            "id": "16",
             "nome": "Walt Disney World",
             "descricao": "O mais famoso complexo de parques temáticos do mundo, com quatro parques principais e muita magia.",
             "cidade": "Orlando",
             "endereco": "Walt Disney World Resort",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5-mw3_V3v_37dv8oXxrs_DS0QgFrsWAaww&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG5-mw3_V3v_37dv8oXxrs_DS0QgFrsWAaww&s",
+            "pais": "Estados Unidos",
+            "bandeira": "🇺🇸"
         },
         {
-            "id": 17,
+            "id": "17",
             "nome": "Universal Studios Florida",
             "descricao": "Parque temático dedicado a filmes e programas de TV, com atrações emocionantes e simuladores.",
             "cidade": "Orlando",
             "endereco": "6000 Universal Blvd",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgTteaXZ7f5zdwou9x7XdwiKl9ua9qcfZiiQ&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgTteaXZ7f5zdwou9x7XdwiKl9ua9qcfZiiQ&s",
+            "pais": "Estados Unidos",
+            "bandeira": "🇺🇸"
         },
         {
-            "id": 18,
+            "id": "18",
             "nome": "Fontana di Trevi",
             "descricao": "A maior e mais famosa fonte barroca de Roma, onde diz a tradição que jogar uma moeda garante seu retorno à cidade.",
             "cidade": "Roma",
             "endereco": "Piazza di Trevi",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG59dGQDATptIHB2f5yf-F7oXqvBqy-d237g&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG59dGQDATptIHB2f5yf-F7oXqvBqy-d237g&s",
+            "pais": "Itália",
+            "bandeira": "🇮🇹"
         },
         {
-            "id": 19,
+            "id": "19",
             "nome": "Duomo di Milano",
             "descricao": "A imponente catedral gótica de Milão, famosa por sua arquitetura detalhada e terraços com vista para a cidade.",
             "cidade": "Milão",
             "endereco": "Piazza del Duomo",
-            "imagemUrl": "https://accidentallywesanderson.com/wp-content/uploads/2020/04/26547174631_abbeb73a7c_k.jpg"
+            "imagemUrl": "https://accidentallywesanderson.com/wp-content/uploads/2020/04/26547174631_abbeb73a7c_k.jpg",
+            "pais": "Itália",
+            "bandeira": "🇮🇹"
         },
         {
-            "id": 20,
+            "id": "20",
             "nome": "Galleria Vittorio Emanuele II",
             "descricao": "Uma das galerias comerciais mais antigas do mundo, conhecida por seu teto de vidro deslumbrante e lojas de grife.",
             "cidade": "Milão",
             "endereco": "Piazza del Duomo",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Galleria_Milano_%28179532365%29.jpeg/1280px-Galleria_Milano_%28179532365%29.jpeg"
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Galleria_Milano_%28179532365%29.jpeg/1280px-Galleria_Milano_%28179532365%29.jpeg",
+            "pais": "Itália",
+            "bandeira": "🇮🇹"
         },
         {
-            "id": 21,
+            "id": "21",
             "nome": "Templo Senso-ji",
             "descricao": "O templo budista mais antigo e icônico de Tóquio, famoso pelo portão Kaminarimon e pela rua de compras Nakamise.",
             "cidade": "Tóquio",
             "endereco": "2 Chome-3-1 Asakusa, Taito City",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Cloudy_Sens%C5%8D-ji.jpg/250px-Cloudy_Sens%C5%8D-ji.jpg"
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Cloudy_Sens%C5%8D-ji.jpg/250px-Cloudy_Sens%C5%8D-ji.jpg",
+            "pais": "Japão",
+            "bandeira": "🇯🇵"
         },
         {
-            "id": 22,
+            "id": "22",
             "nome": "Cruzamento de Shibuya",
             "descricao": "O cruzamento mais movimentado do mundo, cercado por telões de LED e símbolo da energia pulsante da metrópole.",
             "cidade": "Tóquio",
             "endereco": "1 Chome-2-1 Dogenzaka, Shibuya City",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJOetr1TTuFu6_qK0hfYZ3brPU1smhW0Dm6A&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJOetr1TTuFu6_qK0hfYZ3brPU1smhW0Dm6A&s",
+            "pais": "Japão",
+            "bandeira": "🇯🇵"
         },
         {
-            "id": 23,
+            "id": "23",
             "nome": "Castelo de Osaka",
             "descricao": "Um dos marcos históricos mais famosos do Japão, cercado por um enorme parque e fossos impressionantes.",
             "cidade": "Osaka",
             "endereco": "1-1 Osakajo, Chuo Ward",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgzog1Fjkip8_8OaA2Ci5QjzFfjZ-1cxW0FA&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgzog1Fjkip8_8OaA2Ci5QjzFfjZ-1cxW0FA&s",
+            "pais": "Japão",
+            "bandeira": "🇯🇵"
         },
         {
-            "id": 24,
+            "id": "24",
             "nome": "Dotonbori",
             "descricao": "O coração vibrante de Osaka, conhecido por seus letreiros luminosos gigantes, canais e incrível comida de rua.",
             "cidade": "Osaka",
             "endereco": "Dotonbori, Chuo Ward, Osaka",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtJq-UG2-Wjd2axHJ_sMlwvrZEH1mhlec0Mw&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtJq-UG2-Wjd2axHJ_sMlwvrZEH1mhlec0Mw&s",
+            "pais": "Japão",
+            "bandeira": "🇯🇵"
         },
         {
-            "id": 25,
+            "id": "25",
             "nome": "Obelisco",
             "descricao": "O maior ícone de Buenos Aires, localizado no cruzamento das avenidas 9 de Julio e Corrientes.",
             "cidade": "Buenos Aires",
             "endereco": "Av. 9 de Julio s/n",
-            "imagemUrl": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=400",
+            "pais": "Argentina",
+            "bandeira": "🇦🇷"
         },
         {
-            "id": 26,
+            "id": "26",
             "nome": "Caminito",
             "descricao": "Rua museu colorida e tradicional, famosa pelo tango e pelas casas de zinco no bairro de La Boca.",
             "cidade": "Buenos Aires",
             "endereco": "Valle Iberlucea del Valle, 1162",
-            "imagemUrl": "https://www.vounajanela.com/wp-content/uploads/2022/03/ba_1.jpg"
+            "imagemUrl": "https://www.vounajanela.com/wp-content/uploads/2022/03/ba_1.jpg",
+            "pais": "Argentina",
+            "bandeira": "🇦🇷"
         },
         {
-            "id": 27,
+            "id": "27",
             "nome": "Parque General San Martín",
             "descricao": "O principal e mais antigo parque de Mendoza, com 394 hectares e portões trazidos da Inglaterra.",
             "cidade": "Mendoza",
             "endereco": "Av. Boulogne Sur Mer",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Mendoza_-_Park_gate.jpg"
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Mendoza_-_Park_gate.jpg",
+            "pais": "Argentina",
+            "bandeira": "🇦🇷"
         },
         {
-            "id": 28,
+            "id": "28",
             "nome": "Cerro de la Gloria",
             "descricao": "Monumento ao Exército dos Andes no topo de uma colina com vista panorâmica da cidade.",
             "cidade": "Mendoza",
             "endereco": "Parque Gral. San Martín",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/8d/9b/b8/the-hill-of-glory-cerro.jpg?w=1200&h=1200&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/8d/9b/b8/the-hill-of-glory-cerro.jpg?w=1200&h=1200&s=1",
+            "pais": "Argentina",
+            "bandeira": "🇦🇷"
         },
         {
-            "id": 29,
+            "id": "29",
             "nome": "Palácio de Bellas Artes",
             "descricao": "Um dos edifícios mais belos do mundo, famoso por sua arquitetura e murais históricos.",
             "cidade": "Cidade do México",
             "endereco": "Av. Juárez S/N, Centro Histórico",
-            "imagemUrl": "https://images.unsplash.com/photo-1585464231875-d9ef1f5ad396?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1585464231875-d9ef1f5ad396?w=400",
+            "pais": "México",
+            "bandeira": "🇲🇽"
         },
         {
-            "id": 30,
+            "id": "30",
             "nome": "Museu Frida Kahlo",
             "descricao": "A 'Casa Azul' onde a artista viveu, agora um museu dedicado à sua vida e obra.",
             "cidade": "Cidade do México",
             "endereco": "Londres 247, Del Carmen",
-            "imagemUrl": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=400",
+            "pais": "México",
+            "bandeira": "🇲🇽"
         },
         {
-            "id": 31,
+            "id": "31",
             "nome": "Zona Arqueológica de El Rey",
             "descricao": "Ruínas maias históricas localizadas bem no coração da zona hoteleira.",
             "cidade": "Cancún",
             "endereco": "Blvd. Kukulcan Km. 18",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/69/ab/f3/20160806-100028-largejpg.jpg?w=1200&h=-1&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/69/ab/f3/20160806-100028-largejpg.jpg?w=1200&h=-1&s=1",
+            "pais": "México",
+            "bandeira": "🇲🇽"
         },
         {
-            "id": 32,
+            "id": "32",
             "nome": "Playa Delfines",
             "descricao": "Uma das praias mais bonitas de Cancún, famosa pelo letreiro colorido e mar azul turquesa.",
             "cidade": "Cancún",
             "endereco": "Blvd. Kukulcan Km 19.5",
-            "imagemUrl": "https://images.unsplash.com/photo-1544918877-460635b6d13e?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1544918877-460635b6d13e?w=400",
+            "pais": "México",
+            "bandeira": "🇲🇽"
         },
         {
-            "id": 33,
+            "id": "33",
             "nome": "CN Tower",
             "descricao": "Uma das torres mais altas do mundo, oferecendo uma vista 360 graus de Toronto.",
             "cidade": "Toronto",
             "endereco": "290 Bremner Blvd",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1XTAkkzTmzPsnhauLlJo5E7z15mzBKMppZg&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1XTAkkzTmzPsnhauLlJo5E7z15mzBKMppZg&s",
+            "pais": "Canadá",
+            "bandeira": "🇨🇦"
         },
         {
-            "id": 34,
+            "id": "34",
             "nome": "Distillery District",
             "descricao": "Vila histórica para pedestres com edifícios industriais do século XIX e lojas modernas.",
             "cidade": "Toronto",
             "endereco": "55 Mill St",
-            "imagemUrl": "https://media.cntraveler.com/photos/616480d36a69c761590b271a/16:9/w_2560,c_limit/Distillery%20District-57.jpg0"
+            "imagemUrl": "https://media.cntraveler.com/photos/616480d36a69c761590b271a/16:9/w_2560,c_limit/Distillery%20District-57.jpg0",
+            "pais": "Canadá",
+            "bandeira": "🇨🇦"
         },
         {
-            "id": 35,
+            "id": "35",
             "nome": "Stanley Park",
             "descricao": "Um enorme parque urbano com vista para o mar, totens indígenas e ciclovias.",
             "cidade": "Vancouver",
             "endereco": "Vancouver, BC V6G 1Z4",
-            "imagemUrl": "https://i0.wp.com/vancouversbestplaces.com/wp-content/uploads/2020/08/Stanley-Park-Lighthouse-by-On-the-Mark-Drone-Services.jpg?resize=640%2C353&ssl=1"
+            "imagemUrl": "https://i0.wp.com/vancouversbestplaces.com/wp-content/uploads/2020/08/Stanley-Park-Lighthouse-by-On-the-Mark-Drone-Services.jpg?resize=640%2C353&ssl=1",
+            "pais": "Canadá",
+            "bandeira": "🇨🇦"
         },
         {
-            "id": 36,
+            "id": "36",
             "nome": "Capilano Suspension Bridge",
             "descricao": "Famosa ponte suspensa que atravessa o rio Capilano em meio a uma floresta densa.",
             "cidade": "Vancouver",
             "endereco": "3735 Capilano Rd",
-            "imagemUrl": "https://www.capbridge.com/wp-content/uploads/2024/05/OutdoorAdventures-card-e1663478782963-2.jpg"
+            "imagemUrl": "https://www.capbridge.com/wp-content/uploads/2024/05/OutdoorAdventures-card-e1663478782963-2.jpg",
+            "pais": "Canadá",
+            "bandeira": "🇨🇦"
         },
         {
-            "id": 37,
+            "id": "37",
             "nome": "Sydney Opera House",
             "descricao": "Obra-prima da arquitetura moderna e o maior símbolo cultural da Austrália.",
             "cidade": "Sydney",
             "endereco": "Bennelong Point",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk5eTjdCYYa4ncpAZiCkU8ZVwDrZoB3D4cyw&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk5eTjdCYYa4ncpAZiCkU8ZVwDrZoB3D4cyw&s",
+            "pais": "Austrália",
+            "bandeira": "🇦🇺"
         },
         {
-            "id": 38,
+            "id": "38",
             "nome": "Bondi Beach",
             "descricao": "Uma das praias mais famosas do mundo, paraíso dos surfistas e da cultura relax.",
             "cidade": "Sydney",
             "endereco": "Bondi Beach, NSW 2026",
-            "imagemUrl": "https://img.static-kl.com/transform/75a2493a-ad34-46d9-842d-7984da0203a0/"
+            "imagemUrl": "https://img.static-kl.com/transform/75a2493a-ad34-46d9-842d-7984da0203a0/",
+            "pais": "Austrália",
+            "bandeira": "🇦🇺"
         },
         {
-            "id": 39,
+            "id": "39",
             "nome": "Royal Botanic Gardens",
             "descricao": "Belíssimos jardins no centro da cidade, perfeitos para um passeio tranquilo.",
             "cidade": "Melbourne",
             "endereco": "Birdwood Ave",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwD2DZVRxuQTcIGbDdOnRNb3WKpN2IfrePww&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwD2DZVRxuQTcIGbDdOnRNb3WKpN2IfrePww&s",
+            "pais": "Austrália",
+            "bandeira": "🇦🇺"
         },
         {
-            "id": 40,
+            "id": "40",
             "nome": "Federation Square",
             "descricao": "Um espaço público vibrante com museus, galerias e uma arquitetura geométrica ousada.",
             "cidade": "Melbourne",
             "endereco": "Swanston St & Flinders St",
-            "imagemUrl": "https://image-tc.galaxy.tf/wijpeg-3cfcfcdeaek3pwfes6hvt43rn/fed-square-resized.jpg"
+            "imagemUrl": "https://image-tc.galaxy.tf/wijpeg-3cfcfcdeaek3pwfes6hvt43rn/fed-square-resized.jpg",
+            "pais": "Austrália",
+            "bandeira": "🇦🇺"
         },
         {
-            "id": 41,
+            "id": "41",
             "nome": "Acrópole de Atenas",
             "descricao": "O berço da democracia, com o majestoso Partenon vigiando a cidade moderna.",
             "cidade": "Atenas",
             "endereco": "Atenas 105 58",
-            "imagemUrl": "https://dicadagrecia.com.br/wp-content/uploads/sites/24/2020/03/Parthenon-Partenon-atenas-jpg.webp"
+            "imagemUrl": "https://dicadagrecia.com.br/wp-content/uploads/sites/24/2020/03/Parthenon-Partenon-atenas-jpg.webp",
+            "pais": "Grécia",
+            "bandeira": "🇬🇷"
         },
         {
-            "id": 42,
+            "id": "42",
             "nome": "Bairro de Plaka",
             "descricao": "O 'Bairro dos Deuses', com ruas estreitas, tabernas antigas e casas de estilo neoclássico.",
             "cidade": "Atenas",
             "endereco": "Plaka, Atenas",
-            "imagemUrl": "https://dicadagrecia.com.br/wp-content/uploads/sites/24/2021/09/plaka-atenas-jpg.webp"
+            "imagemUrl": "https://dicadagrecia.com.br/wp-content/uploads/sites/24/2021/09/plaka-atenas-jpg.webp",
+            "pais": "Grécia",
+            "bandeira": "🇬🇷"
         },
         {
-            "id": 43,
+            "id": "43",
             "nome": "Oia Sunset",
             "descricao": "O pôr do sol mais famoso do mundo, entre cúpulas azuis e casas brancas na beira do penhasco.",
             "cidade": "Santorini",
             "endereco": "Oia 847 02",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrBq-qRt2qsMML4xiqo62DRDk2_j0f8i3v8g&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrBq-qRt2qsMML4xiqo62DRDk2_j0f8i3v8g&s",
+            "pais": "Grécia",
+            "bandeira": "🇬🇷"
         },
         {
-            "id": 44,
+            "id": "44",
             "nome": "Red Beach",
             "descricao": "Praia única cercada por penhascos de areia vulcânica vermelha e águas cristalinas.",
             "cidade": "Santorini",
             "endereco": "Akrotiri 847 00",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a7/bf/3a/red-beach.jpg?w=900&h=500&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a7/bf/3a/red-beach.jpg?w=900&h=500&s=1",
+            "pais": "Grécia",
+            "bandeira": "🇬🇷"
         },
         {
-            "id": 45,
+            "id": "45",
             "nome": "Lago Zurique",
             "descricao": "Um lago pitoresco cercado por montanhas, perfeito para cruzeiros e passeios à beira-mar.",
             "cidade": "Zurique",
             "endereco": "Zurich Lake, Zurique",
-            "imagemUrl": "https://www.civitatis.com/f/suiza/zurich/guia/lago-zurich-m.jpg"
+            "imagemUrl": "https://www.civitatis.com/f/suiza/zurich/guia/lago-zurich-m.jpg",
+            "pais": "Suíça",
+            "bandeira": "🇨🇭"
         },
         {
-            "id": 46,
+            "id": "46",
             "nome": "Fraumünster",
             "descricao": "Igreja famosa por seus vitrais coloridos projetados por Marc Chagall.",
             "cidade": "Zurique",
             "endereco": "Münsterhof 2",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhRLxh_v5pvJT83CbceVWkl6SwN8Iuwnaw-g&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhRLxh_v5pvJT83CbceVWkl6SwN8Iuwnaw-g&s",
+            "pais": "Suíça",
+            "bandeira": "🇨🇭"
         },
         {
-            "id": 47,
+            "id": "47",
             "nome": "Jet d'Eau",
             "descricao": "A enorme fonte de água no Lago Genebra, lançando água a 140 metros de altura.",
             "cidade": "Genebra",
             "endereco": "Quai Gustave-Ador",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/14/92/0e/photo0jpg.jpg?w=900&h=500&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/14/92/0e/photo0jpg.jpg?w=900&h=500&s=1",
+            "pais": "Suíça",
+            "bandeira": "🇨🇭"
         },
         {
-            "id": 48,
+            "id": "48",
             "nome": "Palais des Nations",
             "descricao": "Sede europeia das Nações Unidas, um símbolo de diplomacia e paz mundial.",
             "cidade": "Genebra",
             "endereco": "1211 Genebra",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/UN_Building_A_Southern_Lawn.jpg"
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/UN_Building_A_Southern_Lawn.jpg",
+            "pais": "Suíça",
+            "bandeira": "🇨🇭"
         },
         {
-            "id": 49,
+            "id": "49",
             "nome": "Torre de Belém",
             "descricao": "Fortaleza histórica às margens do Rio Tejo, símbolo das descobertas portuguesas.",
             "cidade": "Lisboa",
             "endereco": "Av. Brasília, 1400-038",
-            "imagemUrl": "https://cdn-imgix.headout.com/microbrands-content-image/image/f94caf06c3d6d7779a089fea20611e99-AdobeStock_314194172.jpeg"
+            "imagemUrl": "https://cdn-imgix.headout.com/microbrands-content-image/image/f94caf06c3d6d7779a089fea20611e99-AdobeStock_314194172.jpeg",
+            "pais": "Portugal",
+            "bandeira": "🇵🇹"
         },
         {
-            "id": 50,
+            "id": "50",
             "nome": "Mosteiro dos Jerónimos",
             "descricao": "Obra-prima da arquitetura manuelina e local de repouso de Vasco da Gama.",
             "cidade": "Lisboa",
             "endereco": "Praça do Império",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYgSMJlaEy0JsokMVtTuo6obfHIXL30f2uw&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYgSMJlaEy0JsokMVtTuo6obfHIXL30f2uw&s",
+            "pais": "Portugal",
+            "bandeira": "🇵🇹"
         },
         {
-            "id": 51,
+            "id": "51",
             "nome": "Livraria Lello",
             "descricao": "Uma das livrarias mais bonitas do mundo, conhecida por sua escadaria vermelha icônica.",
             "cidade": "Porto",
             "endereco": "R. das Carmelitas 144",
-            "imagemUrl": "https://cdn-imgix.headout.com/media/images/52246a72b33c1d1cba49604abbc05eaa-4360-Lello_Library-01.jpg?auto=compress%2Cformat&q=90&crop=faces&fit=crop"
+            "imagemUrl": "https://cdn-imgix.headout.com/media/images/52246a72b33c1d1cba49604abbc05eaa-4360-Lello_Library-01.jpg?auto=compress%2Cformat&q=90&crop=faces&fit=crop",
+            "pais": "Portugal",
+            "bandeira": "🇵🇹"
         },
         {
-            "id": 52,
+            "id": "52",
             "nome": "Ponte Luís I",
             "descricao": "Ponte metálica de dois andares que liga as cidades do Porto e Vila Nova de Gaia.",
             "cidade": "Porto",
             "endereco": "Pte. Luiz I",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Puente_Don_Luis_I%2C_Oporto%2C_Portugal%2C_2012-05-09%2C_DD_13.JPG"
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Puente_Don_Luis_I%2C_Oporto%2C_Portugal%2C_2012-05-09%2C_DD_13.JPG",
+            "pais": "Portugal",
+            "bandeira": "🇵🇹"
         },
         {
-            "id": 53,
+            "id": "53",
             "nome": "Museu do Prado",
             "descricao": "Um dos museus de arte mais importantes do mundo, com obras de Goya e Velázquez.",
             "cidade": "Madrid",
             "endereco": "C. de Ruiz de Alarcón, 23",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNbsb-t1VWtbN5HTUF9MJXmyz9Xixk7e3XWQ&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNbsb-t1VWtbN5HTUF9MJXmyz9Xixk7e3XWQ&s",
+            "pais": "Espanha",
+            "bandeira": "🇪🇸"
         },
         {
-            "id": 54,
+            "id": "54",
             "nome": "Parque de El Retiro",
             "descricao": "O pulmão verde de Madrid, com um lago maravilhoso e o Palácio de Cristal.",
             "cidade": "Madrid",
             "endereco": "Plaza de la Independencia",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/53/53/2c/img-20160729-205021-largejpg.jpg?w=900&h=500&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/53/53/2c/img-20160729-205021-largejpg.jpg?w=900&h=500&s=1",
+            "pais": "Espanha",
+            "bandeira": "🇪🇸"
         },
         {
-            "id": 55,
+            "id": "55",
             "nome": "Sagrada Família",
             "descricao": "A impressionante basílica desenhada por Gaudí, famosa por suas torres e detalhes únicos.",
             "cidade": "Barcelona",
             "endereco": "C/ de Mallorca, 401",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg/960px-%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg"
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg/960px-%CE%A3%CE%B1%CE%B3%CF%81%CE%AC%CE%B4%CE%B1_%CE%A6%CE%B1%CE%BC%CE%AF%CE%BB%CE%B9%CE%B1_2941.jpg",
+            "pais": "Espanha",
+            "bandeira": "🇪🇸"
         },
         {
-            "id": 56,
+            "id": "56",
             "nome": "Park Güell",
             "descricao": "Parque público com jardins e elementos arquitetônicos coloridos localizados no Monte Carmel.",
             "cidade": "Barcelona",
             "endereco": "08024 Barcelona",
-            "imagemUrl": "https://cdn-imgix.headout.com/media/images/3e5f61c966be04ede4094955fbae3759-Park%20Guell%20.jpg"
+            "imagemUrl": "https://cdn-imgix.headout.com/media/images/3e5f61c966be04ede4094955fbae3759-Park%20Guell%20.jpg",
+            "pais": "Espanha",
+            "bandeira": "🇪🇸"
         },
         {
-            "id": 57,
+            "id": "57",
             "nome": "Big Ben",
             "descricao": "O relógio mais famoso do mundo, situado na torre do Palácio de Westminster.",
             "cidade": "Londres",
             "endereco": "Westminster, Londres SW1A 0AA",
-            "imagemUrl": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?w=400",
+            "pais": "Inglaterra",
+            "bandeira": "🇬🇧"
         },
         {
-            "id": 58,
+            "id": "58",
             "nome": "The British Museum",
             "descricao": "Dedicado à história humana, arte e cultura, abrigando a Pedra de Roseta.",
             "cidade": "Londres",
             "endereco": "Great Russell St",
-            "imagemUrl": "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_4:3,w_3840,g_auto/f_auto/q_auto/v1/shutterstock_2476048819_ss_non-editorial_vcahpp?_a=BAVAZGDY0"
+            "imagemUrl": "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_4:3,w_3840,g_auto/f_auto/q_auto/v1/shutterstock_2476048819_ss_non-editorial_vcahpp?_a=BAVAZGDY0",
+            "pais": "Inglaterra",
+            "bandeira": "🇬🇧"
         },
         {
-            "id": 59,
+            "id": "59",
             "nome": "The Beatles Story",
             "descricao": "A maior exposição do mundo dedicada exclusivamente à vida e época dos Beatles.",
             "cidade": "Liverpool",
             "endereco": "Britannia Vaults, Albert Dock",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/5f/39/ce/the-beatles-story-entrance.jpg?w=1200&h=-1&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/5f/39/ce/the-beatles-story-entrance.jpg?w=1200&h=-1&s=1",
+            "pais": "Inglaterra",
+            "bandeira": "🇬🇧"
         },
         {
-            "id": 60,
+            "id": "60",
             "nome": "Liverpool Cathedral",
             "descricao": "A maior catedral do Reino Unido, com vistas panorâmicas incríveis da cidade.",
             "cidade": "Liverpool",
             "endereco": "St James Mt",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9Qe1bCIMVMK7Vfcx5j3GVH3E7SdB96f7Jg&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9Qe1bCIMVMK7Vfcx5j3GVH3E7SdB96f7Jg&s",
+            "pais": "Inglaterra",
+            "bandeira": "🇬🇧"
         },
         {
-            "id": 61,
+            "id": "61",
             "nome": "Portão de Brandemburgo",
             "descricao": "Monumento neoclássico do século XVIII e símbolo de paz e unidade alemã.",
             "cidade": "Berlim",
             "endereco": "Pariser Platz",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRlItqnyK-91f7w8hfKghhVFVv277JB9fTlQ&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRlItqnyK-91f7w8hfKghhVFVv277JB9fTlQ&s",
+            "pais": "Alemanha",
+            "bandeira": "🇩🇪"
         },
         {
-            "id": 62,
+            "id": "62",
             "nome": "Muro de Berlim",
             "descricao": "A East Side Gallery é o trecho preservado do muro coberto por grafites artísticos.",
             "cidade": "Berlim",
             "endereco": "Mühlenstraße 3-100",
-            "imagemUrl": "https://dicasdeberlim.com.br/wp-content/uploads/sites/20/2015/11/4.jpg"
+            "imagemUrl": "https://dicasdeberlim.com.br/wp-content/uploads/sites/20/2015/11/4.jpg",
+            "pais": "Alemanha",
+            "bandeira": "🇩🇪"
         },
         {
-            "id": 63,
+            "id": "63",
             "nome": "Marienplatz",
             "descricao": "A praça central de Munique desde 1158, famosa pelo Glockenspiel (carrilhão).",
             "cidade": "Munique",
             "endereco": "Marienplatz 1",
-            "imagemUrl": "https://www.civitatis.com/f/alemania/munich/guia/marienplatz.jpg"
+            "imagemUrl": "https://www.civitatis.com/f/alemania/munich/guia/marienplatz.jpg",
+            "pais": "Alemanha",
+            "bandeira": "🇩🇪"
         },
         {
-            "id": 64,
+            "id": "64",
             "nome": "BMW Welt",
             "descricao": "Centro de exposições multifuncional da BMW com arquitetura futurista.",
             "cidade": "Munique",
             "endereco": "Am Olympiapark 1",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4a/07/ce/bmw-welt.jpg?w=900&h=500&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4a/07/ce/bmw-welt.jpg?w=900&h=500&s=1",
+            "pais": "Alemanha",
+            "bandeira": "🇩🇪"
         }
     ],
     "restaurantes": [
         {
-            "id": 1,
+            "id": "1",
             "nome": "Churrascaria Brasa Viva",
             "descricao": "Autêntica churrascaria brasileira com rodízio de carnes nobres.",
             "cidade": "Rio de Janeiro",
             "endereco": "Av. Atlântica, 1800",
-            "imagemUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         },
         {
-            "id": 2,
+            "id": "2",
             "nome": "Maré Alta Frutos do Mar",
             "descricao": "Restaurante de frutos do mar com vista privilegiada para o oceano.",
             "cidade": "Rio de Janeiro",
             "endereco": "Av. Vieira Souto, 460",
-            "imagemUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=400&q=80",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         },
         {
-            "id": 3,
+            "id": "3",
             "nome": "La Merenda",
             "descricao": "Bistrô tradicional francês oferecendo pratos clássicos de Nice em um ambiente aconchegante.",
             "cidade": "Nice",
             "endereco": "4 Rue Raoul Bosio",
-            "imagemUrl": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=400&q=80",
+            "pais": "França",
+            "bandeira": "🇫🇷"
         },
         {
-            "id": 4,
+            "id": "4",
             "nome": "Le Chantecler",
             "descricao": "Restaurante com estrelas Michelin que oferece uma experiência luxuosa de alta gastronomia.",
             "cidade": "Nice",
             "endereco": "37 Promenade des Anglais",
-            "imagemUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&q=80",
+            "pais": "França",
+            "bandeira": "🇫🇷"
         },
         {
-            "id": 5,
+            "id": "5",
             "nome": "Katz's Delicatessen",
             "descricao": "Famosa deli nova-iorquina, conhecida mundialmente pelo seu sanduíche gigante de pastrami.",
             "cidade": "Nova York",
             "endereco": "205 E Houston St",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn8aD5cuSxt10pNcYbXxK-sVqrBBkLtQpPNw&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn8aD5cuSxt10pNcYbXxK-sVqrBBkLtQpPNw&s",
+            "pais": "Estados Unidos",
+            "bandeira": "🇺🇸"
         },
         {
-            "id": 6,
+            "id": "6",
             "nome": "Carmine's Italian Restaurant",
             "descricao": "Restaurante italiano de porções generosas para compartilhar, no coração da Times Square.",
             "cidade": "Nova York",
             "endereco": "200 W 44th St",
-            "imagemUrl": "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?auto=format&fit=crop&w=400&q=80",
+            "pais": "Estados Unidos",
+            "bandeira": "🇺🇸"
         },
         {
-            "id": 7,
+            "id": "7",
             "nome": "The Boathouse",
             "descricao": "Frutos do mar, bifes e ambiente descontraído com vista para o lago em Disney Springs.",
             "cidade": "Orlando",
             "endereco": "1620 E Buena Vista Dr",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBRAxx7mZ3sPcPmjs0PD-QEcgetkqReihEKg&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBRAxx7mZ3sPcPmjs0PD-QEcgetkqReihEKg&s",
+            "pais": "Estados Unidos",
+            "bandeira": "🇺🇸"
         },
         {
-            "id": 8,
+            "id": "8",
             "nome": "Be Our Guest Restaurant",
             "descricao": "Experiência mágica em um castelo com pratos inspirados na culinária francesa.",
             "cidade": "Orlando",
             "endereco": "Magic Kingdom Park",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLmoo4b7f5o1_PLoQ4D1hBRw7V5pPn-YtRRw&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLmoo4b7f5o1_PLoQ4D1hBRw7V5pPn-YtRRw&s",
+            "pais": "Estados Unidos",
+            "bandeira": "🇺🇸"
         },
         {
-            "id": 9,
+            "id": "9",
             "nome": "Da Enzo al 29",
             "descricao": "Trattoria típica romana no charmoso bairro de Trastevere. Massas incríveis.",
             "cidade": "Roma",
             "endereco": "Via dei Vascellari, 29",
-            "imagemUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=400&q=80",
+            "pais": "Itália",
+            "bandeira": "🇮🇹"
         },
         {
-            "id": 10,
+            "id": "10",
             "nome": "Antico Forno Roscioli",
             "descricao": "Padaria, restaurante e pizzaria famosa pelos ingredientes frescos e de alta qualidade.",
             "cidade": "Roma",
             "endereco": "Via dei Chiavari, 34",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/d4/c1/1e/esterno.jpg?w=900&h=500&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/d4/c1/1e/esterno.jpg?w=900&h=500&s=1",
+            "pais": "Itália",
+            "bandeira": "🇮🇹"
         },
         {
-            "id": 11,
+            "id": "11",
             "nome": "Ristorante Cracco",
             "descricao": "Alta gastronomia italiana pelas mãos do renomado chef Carlo Cracco, na Galleria Vittorio Emanuele.",
             "cidade": "Milão",
             "endereco": "Corso Vittorio Emanuele II",
-            "imagemUrl": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=400&q=80",
+            "pais": "Itália",
+            "bandeira": "🇮🇹"
         },
         {
-            "id": 12,
+            "id": "12",
             "nome": "Luini Panzerotti",
             "descricao": "Um ícone da comida de rua de Milão. Panzerottis recheados e fritos, sucesso desde 1888.",
             "cidade": "Milão",
             "endereco": "Via Santa Radegonda, 16",
-            "imagemUrl": "https://media-cdn.tripadvisor.com/media/photo-s/02/fb/a6/57/luini-panzerotti.jpg"
+            "imagemUrl": "https://media-cdn.tripadvisor.com/media/photo-s/02/fb/a6/57/luini-panzerotti.jpg",
+            "pais": "Itália",
+            "bandeira": "🇮🇹"
         },
         {
-            "id": 13,
+            "id": "13",
             "nome": "Le Jules Verne",
             "descricao": "Restaurante sofisticado localizado no segundo andar da Torre Eiffel, com uma vista inesquecível.",
             "cidade": "Paris",
             "endereco": "Torre Eiffel, 2º Andar",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/6b/31/72/vue-de-la-salle-quai.jpg?w=900&h=-1&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/6b/31/72/vue-de-la-salle-quai.jpg?w=900&h=-1&s=1",
+            "pais": "França",
+            "bandeira": "🇫🇷"
         },
         {
-            "id": 14,
+            "id": "14",
             "nome": "Café de Flore",
             "descricao": "Um dos cafés mais antigos de Paris, famoso por sua arquitetura clássica e por ter sido reduto de grandes filósofos.",
             "cidade": "Paris",
             "endereco": "172 Blvd Saint-Germain",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/a8/b0/9c/le-cafe-de-flore-172.jpg?w=900&h=500&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/a8/b0/9c/le-cafe-de-flore-172.jpg?w=900&h=500&s=1",
+            "pais": "França",
+            "bandeira": "🇫🇷"
         },
         {
-            "id": 15,
+            "id": "15",
             "nome": "Mercadão de SP - Bar do Mané",
             "descricao": "Famoso pelo gigante e tradicional sanduíche de mortadela.",
             "cidade": "São Paulo",
             "endereco": "R. da Cantareira, 306",
-            "imagemUrl": "https://cdn.prod.website-files.com/63d3c43a87589374d0a09844/68cc3f92d74237b055a62b2b_Mercad%C3%A3o%20SP.jpeg"
+            "imagemUrl": "https://cdn.prod.website-files.com/63d3c43a87589374d0a09844/68cc3f92d74237b055a62b2b_Mercad%C3%A3o%20SP.jpeg",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         },
         {
-            "id": 16,
+            "id": "16",
             "nome": "D.O.M.",
             "descricao": "Alta gastronomia brasileira reconhecida mundialmente, comandada pelo chef Alex Atala.",
             "cidade": "São Paulo",
             "endereco": "R. Barão de Capanema, 549",
-            "imagemUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=400&q=80",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         },
         {
-            "id": 17,
+            "id": "17",
             "nome": "Ichiran Shibuya",
             "descricao": "O ramen mais famoso do Japão, conhecido por suas cabines individuais e caldo Tonkotsu artesanal.",
             "cidade": "Tóquio",
             "endereco": "1 Chome-22-7 Jinnan, Shibuya City",
-            "imagemUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=400&q=80",
+            "pais": "Japão",
+            "bandeira": "🇯🇵"
         },
         {
-            "id": 18,
+            "id": "18",
             "nome": "Kyubey Ginza",
             "descricao": "Referência mundial em sushi tradicional, oferecendo peças preparadas na hora com peixes fresquíssimos.",
             "cidade": "Tóquio",
             "endereco": "8 Chome-7-6 Ginza, Chuo City",
-            "imagemUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=400&q=80",
+            "pais": "Japão",
+            "bandeira": "🇯🇵"
         },
         {
-            "id": 19,
+            "id": "19",
             "nome": "Mizuno Okonomiyaki",
             "descricao": "Tradicional e premiado restaurante especializado em Okonomiyaki, a famosa 'panqueca japonesa' de Osaka.",
             "cidade": "Osaka",
             "endereco": "1 Chome-4-15 Dotonbori, Chuo Ward",
-            "imagemUrl": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?auto=format&fit=crop&w=400&q=80",
+            "pais": "Japão",
+            "bandeira": "🇯🇵"
         },
         {
-            "id": 20,
+            "id": "20",
             "nome": "Kani Doraku",
             "descricao": "Famoso pelo caranguejo gigante na fachada, oferece pratos sofisticados à base de frutos do mar.",
             "cidade": "Osaka",
             "endereco": "1 Chome-6-18 Dotonbori, Chuo Ward",
-            "imagemUrl": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=400&q=80"
+            "imagemUrl": "https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=400&q=80",
+            "pais": "Japão",
+            "bandeira": "🇯🇵"
         },
         {
-            "id": 21,
+            "id": "21",
             "nome": "Pastéis de Belém",
             "descricao": "A confeitaria mais famosa de Portugal, servindo os autênticos e originais pastéis de nata desde 1837.",
             "cidade": "Lisboa",
             "endereco": "R. de Belém 84 92",
-            "imagemUrl": "https://cafeviagem.com/wp-content/uploads/2022/09/pastel-de-belem-lisboa-14-600x800.jpg"
+            "imagemUrl": "https://cafeviagem.com/wp-content/uploads/2022/09/pastel-de-belem-lisboa-14-600x800.jpg",
+            "pais": "Portugal",
+            "bandeira": "🇵🇹"
         },
         {
-            "id": 22,
+            "id": "22",
             "nome": "Cervejaria Ramiro",
             "descricao": "Um verdadeiro templo dos frutos do mar em Lisboa, famoso pelos camarões gigantes e sapateiras.",
             "cidade": "Lisboa",
             "endereco": "Av. Alm. Reis 1 H",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3GWtnC2koy6_VWMpSif7UOKAHCyLPrR3hw&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3GWtnC2koy6_VWMpSif7UOKAHCyLPrR3hw&s",
+            "pais": "Portugal",
+            "bandeira": "🇵🇹"
         },
         {
-            "id": 23,
+            "id": "23",
             "nome": "Café Santiago",
             "descricao": "O local mais icônico para provar a autêntica Francesinha, o prato tradicional e generoso do Porto.",
             "cidade": "Porto",
             "endereco": "R. de Passos Manuel 226",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN0nFTz1rXBIdzF05g3Fp9Q-DQrSoNs7hW2Q&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN0nFTz1rXBIdzF05g3Fp9Q-DQrSoNs7hW2Q&s",
+            "pais": "Portugal",
+            "bandeira": "🇵🇹"
         },
         {
-            "id": 24,
+            "id": "24",
             "nome": "Majestic Café",
             "descricao": "Café histórico deslumbrante no estilo Belle Époque, conhecido por seu ambiente elegante e doces finos.",
             "cidade": "Porto",
             "endereco": "Rua de Santa Catarina 112",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Porto_Cafe_Majestic.JPG"
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Porto_Cafe_Majestic.JPG",
+            "pais": "Portugal",
+            "bandeira": "🇵🇹"
         },
         {
-            "id": 25,
+            "id": "25",
             "nome": "Sobrino de Botín",
             "descricao": "Reconhecido pelo Guinness como o restaurante mais antigo do mundo, famoso pelo leitão assado (cochinillo).",
             "cidade": "Madrid",
             "endereco": "C. de Cuchilleros, 17",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQljWWAVde6qSvIYxpSCQgc70No5sYVGe4oYA&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQljWWAVde6qSvIYxpSCQgc70No5sYVGe4oYA&s",
+            "pais": "Espanha",
+            "bandeira": "🇪🇸"
         },
         {
-            "id": 26,
+            "id": "26",
             "nome": "Chocolatería San Ginés",
             "descricao": "A mais clássica e famosa chocolateria de Madrid, servindo churros com chocolate quente desde 1894.",
             "cidade": "Madrid",
             "endereco": "Pasadizo de San Ginés, 5",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNao4TIP1t-umCKpaIVfNyfWk7_dY1T9FjFg&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNao4TIP1t-umCKpaIVfNyfWk7_dY1T9FjFg&s",
+            "pais": "Espanha",
+            "bandeira": "🇪🇸"
         },
         {
-            "id": 27,
+            "id": "27",
             "nome": "Cervecería Catalana",
             "descricao": "Um dos melhores lugares da cidade para saborear uma enorme variedade de tapas e montaditos tradicionais.",
             "cidade": "Barcelona",
             "endereco": "Carrer de Mallorca, 236",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQccHDhmyrG-2Tx4yMeHDjK43-nSSQ3fYWH9g&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQccHDhmyrG-2Tx4yMeHDjK43-nSSQ3fYWH9g&s",
+            "pais": "Espanha",
+            "bandeira": "🇪🇸"
         },
         {
-            "id": 28,
+            "id": "28",
             "nome": "Can Culleretes",
             "descricao": "O restaurante mais antigo de Barcelona, oferecendo culinária catalã rústica e caseira em um ambiente histórico.",
             "cidade": "Barcelona",
             "endereco": "Carrer d'en Quintana, 5",
-            "imagemUrl": "https://s3.eu-west-1.amazonaws.com/pro.static.portalstdo.tmb.cat/styles/galeria_slider/s3/2025-05/REF_CAN_CULLERETES_CT6A5994.jpg.webp?itok=uxgEbT8J"
+            "imagemUrl": "https://s3.eu-west-1.amazonaws.com/pro.static.portalstdo.tmb.cat/styles/galeria_slider/s3/2025-05/REF_CAN_CULLERETES_CT6A5994.jpg.webp?itok=uxgEbT8J",
+            "pais": "Espanha",
+            "bandeira": "🇪🇸"
         },
         {
-            "id": 29,
+            "id": "29",
             "nome": "Rules",
             "descricao": "O restaurante mais antigo de Londres, especializado em comida britânica tradicional, como carnes de caça e tortas.",
             "cidade": "Londres",
             "endereco": "34-35 Maiden Ln, Covent Garden",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VUpUxpvQ2dF3L-Suv2llgGW7ENImkNn0g&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8VUpUxpvQ2dF3L-Suv2llgGW7ENImkNn0g&s",
+            "pais": "Inglaterra",
+            "bandeira": "🇬🇧"
         },
         {
-            "id": 30,
+            "id": "30",
             "nome": "Poppies Fish & Chips",
             "descricao": "A experiência definitiva do prato mais famoso do Reino Unido, com decoração retrô dos anos 1950.",
             "cidade": "Londres",
             "endereco": "6-8 Hanbury St, Spitalfields",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcc8nChuGxgjZ-A_r76gjmt4LqJC9As6916w&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcc8nChuGxgjZ-A_r76gjmt4LqJC9As6916w&s",
+            "pais": "Inglaterra",
+            "bandeira": "🇬🇧"
         },
         {
-            "id": 31,
+            "id": "31",
             "nome": "Maggie May's",
             "descricao": "O lugar perfeito para provar o 'Scouse', o tradicional ensopado de carne e legumes que é o prato assinatura de Liverpool.",
             "cidade": "Liverpool",
             "endereco": "90 Bold St",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoDXxNrpC58HbS-KJF0frCkKLAp2EbST8z7g&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoDXxNrpC58HbS-KJF0frCkKLAp2EbST8z7g&s",
+            "pais": "Inglaterra",
+            "bandeira": "🇬🇧"
         },
         {
-            "id": 32,
+            "id": "32",
             "nome": "The Baltic Fleet",
             "descricao": "Um pub histórico tradicional que serve cervejas artesanais locais e pratos britânicos clássicos de pub.",
             "cidade": "Liverpool",
             "endereco": "33A Wapping",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/f9/ab/5a/baltic-fleet.jpg?w=700&h=400&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/f9/ab/5a/baltic-fleet.jpg?w=700&h=400&s=1",
+            "pais": "Inglaterra",
+            "bandeira": "🇬🇧"
         },
         {
-            "id": 33,
+            "id": "33",
             "nome": "Curry 36",
             "descricao": "A lanchonete de rua mais famosa de Berlim para provar o autêntico Currywurst alemão.",
             "cidade": "Berlim",
             "endereco": "Mehringdamm 36",
-            "imagemUrl": "https://media-cdn.tripadvisor.com/media/photo-m/1280/14/c9/a2/1b/photo0jpg.jpg"
+            "imagemUrl": "https://media-cdn.tripadvisor.com/media/photo-m/1280/14/c9/a2/1b/photo0jpg.jpg",
+            "pais": "Alemanha",
+            "bandeira": "🇩🇪"
         },
         {
-            "id": 34,
+            "id": "34",
             "nome": "Zur Letzten Instanz",
             "descricao": "O restaurante mais antigo de Berlim, servindo joelho de porco (Eisbein) em um ambiente rústico desde 1621.",
             "cidade": "Berlim",
             "endereco": "Waisenstraße 14-16",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/6e/72/bd/unsere-gaststube.jpg?w=900&h=500&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/6e/72/bd/unsere-gaststube.jpg?w=900&h=500&s=1",
+            "pais": "Alemanha",
+            "bandeira": "🇩🇪"
         },
         {
-            "id": 35,
+            "id": "35",
             "nome": "Hofbräuhaus München",
             "descricao": "A cervejaria mais famosa do mundo, oferecendo comida bávara, canecas de litro de cerveja e música típica.",
             "cidade": "Munique",
             "endereco": "Platzl 9",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Hofbr%C3%A4uhaus_M%C3%BCnchen.jpg/250px-Hofbr%C3%A4uhaus_M%C3%BCnchen.jpg"
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Hofbr%C3%A4uhaus_M%C3%BCnchen.jpg/250px-Hofbr%C3%A4uhaus_M%C3%BCnchen.jpg",
+            "pais": "Alemanha",
+            "bandeira": "🇩🇪"
         },
         {
-            "id": 36,
+            "id": "36",
             "nome": "Augustiner-Keller",
             "descricao": "Um dos maiores e mais antigos biergartens de Munique, servindo pratos rústicos e cerveja tirada de barris de madeira.",
             "cidade": "Munique",
             "endereco": "Arnulfstraße 52",
-            "imagemUrl": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/0e/34/fc/on-a-beautiful-day-everyone.jpg"
+            "imagemUrl": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/0e/34/fc/on-a-beautiful-day-everyone.jpg",
+            "pais": "Alemanha",
+            "bandeira": "🇩🇪"
         },
         {
-            "id": 37,
+            "id": "37",
             "nome": "Parrilla Don Julio",
             "descricao": "Uma das melhores churrascarias do mundo, famosa por seus cortes de carne argentina premium e adega excepcional.",
             "cidade": "Buenos Aires",
             "endereco": "Guatemala 4699",
-            "imagemUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400",
+            "pais": "Argentina",
+            "bandeira": "🇦🇷"
         },
         {
-            "id": 38,
+            "id": "38",
             "nome": "Café Tortoni",
             "descricao": "O café mais antigo da cidade, um ícone cultural com decoração francesa onde intelectuais e fadistas de tango se reuniam.",
             "cidade": "Buenos Aires",
             "endereco": "Av. de Mayo 825",
-            "imagemUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400",
+            "pais": "Argentina",
+            "bandeira": "🇦🇷"
         },
         {
-            "id": 39,
+            "id": "39",
             "nome": "Azafrán",
             "descricao": "Restaurante acolhedor que combina a culinária regional de Mendoza com uma impressionante seleção de vinhos locais.",
             "cidade": "Mendoza",
             "endereco": "Av. Sarmiento 765",
-            "imagemUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400",
+            "pais": "Argentina",
+            "bandeira": "🇦🇷"
         },
         {
-            "id": 40,
+            "id": "40",
             "nome": "1884 Restaurante",
             "descricao": "Comandado pelo famoso chef Francis Mallmann, oferece carnes assadas em forno de barro e fogo aberto.",
             "cidade": "Mendoza",
             "endereco": "Belgrano 1188",
-            "imagemUrl": "https://images.unsplash.com/photo-1558030006-450675393462?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1558030006-450675393462?w=400",
+            "pais": "Argentina",
+            "bandeira": "🇦🇷"
         },
         {
-            "id": 41,
+            "id": "41",
             "nome": "Pujol",
             "descricao": "Alta gastronomia mexicana reconhecida mundialmente, famosa pelo seu 'Mole Madre' envelhecido por milhares de dias.",
             "cidade": "Cidade do México",
             "endereco": "Tennyson 133, Polanco",
-            "imagemUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400",
+            "pais": "México",
+            "bandeira": "🇲🇽"
         },
         {
-            "id": 42,
+            "id": "42",
             "nome": "El Cardenal",
             "descricao": "O lugar perfeito para um café da manhã ou almoço tradicional mexicano, com chocolate quente servido de forma clássica.",
             "cidade": "Cidade do México",
             "endereco": "Calle de la Palma 23",
-            "imagemUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+            "pais": "México",
+            "bandeira": "🇲🇽"
         },
         {
-            "id": 43,
+            "id": "43",
             "nome": "La Parrilla",
             "descricao": "Um dos restaurantes mais tradicionais de Cancún, oferecendo autêntica comida mexicana, mariachis e atmosfera festiva.",
             "cidade": "Cancún",
             "endereco": "Av Yaxchilán 51",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmznjPye5cC3szT4DL_MXMy6I8Sk8JWHgWKw&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmznjPye5cC3szT4DL_MXMy6I8Sk8JWHgWKw&s",
+            "pais": "México",
+            "bandeira": "🇲🇽"
         },
         {
-            "id": 44,
+            "id": "44",
             "nome": "Rosa Negra",
             "descricao": "Gastronomia latino-americana sofisticada com ambiente vibrante, música ao vivo e vista para a lagoa Nichupté.",
             "cidade": "Cancún",
             "endereco": "Blvd. Kukulcan Km 15",
-            "imagemUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400",
+            "pais": "México",
+            "bandeira": "🇲🇽"
         },
         {
-            "id": 45,
+            "id": "45",
             "nome": "Canoe",
             "descricao": "Culinária canadense contemporânea servida no 54º andar, oferecendo vistas espetaculares do horizonte de Toronto.",
             "cidade": "Toronto",
             "endereco": "66 Wellington St W",
-            "imagemUrl": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400",
+            "pais": "Canadá",
+            "bandeira": "🇨🇦"
         },
         {
-            "id": 46,
+            "id": "46",
             "nome": "Richmond Station",
             "descricao": "Restaurante movimentado no centro da cidade, conhecido por seus ingredientes locais e o famoso 'Station Burger'.",
             "cidade": "Toronto",
             "endereco": "1 Richmond St W",
-            "imagemUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+            "pais": "Canadá",
+            "bandeira": "🇨🇦"
         },
         {
-            "id": 47,
+            "id": "47",
             "nome": "Miku",
             "descricao": "Famoso mundialmente por introduzir o 'Aburi' (sushi levemente maçaricado) no Canadá, com vista para a orla.",
             "cidade": "Vancouver",
             "endereco": "200 Granville St #70",
-            "imagemUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=400",
+            "pais": "Canadá",
+            "bandeira": "🇨🇦"
         },
         {
-            "id": 48,
+            "id": "48",
             "nome": "Salmon n' Bannock",
             "descricao": "O único restaurante de culinária das Primeiras Nações em Vancouver, destacando carnes de caça e pão bannock.",
             "cidade": "Vancouver",
             "endereco": "7-1128 W Broadway",
-            "imagemUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=400",
+            "pais": "Canadá",
+            "bandeira": "🇨🇦"
         },
         {
-            "id": 49,
+            "id": "49",
             "nome": "Quay",
             "descricao": "Um dos restaurantes mais premiados da Austrália, oferecendo vistas deslumbrantes da Opera House e pratos criativos.",
             "cidade": "Sydney",
             "endereco": "Upper Level Overseas Passenger Terminal",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/f9/51/f8/photo-by-nikki-to.jpg?w=900&h=500&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/f9/51/f8/photo-by-nikki-to.jpg?w=900&h=500&s=1",
+            "pais": "Austrália",
+            "bandeira": "🇦🇺"
         },
         {
-            "id": 50,
+            "id": "50",
             "nome": "The Grounds of Alexandria",
             "descricao": "Um complexo icônico que mistura cafeteria rústica, restaurante, padaria e jardins exuberantes em um antigo galpão.",
             "cidade": "Sydney",
             "endereco": "7a/2 Huntley St",
-            "imagemUrl": "https://images.unsplash.com/photo-1525648199074-cee30ba79a4a?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1525648199074-cee30ba79a4a?w=400",
+            "pais": "Austrália",
+            "bandeira": "🇦🇺"
         },
         {
-            "id": 51,
+            "id": "51",
             "nome": "Attica",
             "descricao": "Frequentemente listado entre os melhores restaurantes do mundo, focado em ingredientes indígenas australianos.",
             "cidade": "Melbourne",
             "endereco": "74 Glen Eira Rd",
-            "imagemUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400",
+            "pais": "Austrália",
+            "bandeira": "🇦🇺"
         },
         {
-            "id": 52,
+            "id": "52",
             "nome": "Chin Chin",
             "descricao": "Restaurante super badalado de comida do sudeste asiático, símbolo da cultura vibrante e moderna de Melbourne.",
             "cidade": "Melbourne",
             "endereco": "125 Flinders Ln",
-            "imagemUrl": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=400",
+            "pais": "Austrália",
+            "bandeira": "🇦🇺"
         },
         {
-            "id": 53,
+            "id": "53",
             "nome": "Karamanlidika",
             "descricao": "Uma charcutaria e taberna que oferece uma autêntica experiência de mezes (petiscos gregos) com queijos e carnes curadas.",
             "cidade": "Atenas",
             "endereco": "Sokratous 1",
-            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/b8/f5/57/interior-view-of-karamanlidika.jpg?w=900&h=500&s=1"
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/b8/f5/57/interior-view-of-karamanlidika.jpg?w=900&h=500&s=1",
+            "pais": "Grécia",
+            "bandeira": "🇬🇷"
         },
         {
-            "id": 54,
+            "id": "54",
             "nome": "Varoulko Seaside",
             "descricao": "Restaurante com estrela Michelin situado na marina de Mikrolimano, especializado em frutos do mar gregos requintados.",
             "cidade": "Atenas",
             "endereco": "Akti Koumoundourou 54",
-            "imagemUrl": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400",
+            "pais": "Grécia",
+            "bandeira": "🇬🇷"
         },
         {
-            "id": 55,
+            "id": "55",
             "nome": "Ammoudi Fish Tavern",
             "descricao": "Localizado na pitoresca Baía de Ammoudi, famoso pelo polvo seco ao sol e peixes frescos servidos à beira-mar.",
             "cidade": "Santorini",
             "endereco": "Ammoudi Bay, Oia",
-            "imagemUrl": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=400",
+            "pais": "Grécia",
+            "bandeira": "🇬🇷"
         },
         {
-            "id": 56,
+            "id": "56",
             "nome": "Metaxi Mas",
             "descricao": "Escondido nas montanhas, esta taberna adorada pelos moradores locais serve a autêntica comida cretense e de Santorini.",
             "cidade": "Santorini",
             "endereco": "Exo Gonia",
-            "imagemUrl": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=400",
+            "pais": "Grécia",
+            "bandeira": "🇬🇷"
         },
         {
-            "id": 57,
+            "id": "57",
             "nome": "Zeughauskeller",
             "descricao": "Construído em um antigo arsenal de 1487, serve pratos suíços fartos e tradicionais, como salsichas e batatas rösti.",
             "cidade": "Zurique",
             "endereco": "Bahnhofstrasse 28A",
-            "imagemUrl": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400",
+            "pais": "Suíça",
+            "bandeira": "🇨🇭"
         },
         {
-            "id": 58,
+            "id": "58",
             "nome": "Kronenhalle",
             "descricao": "Um restaurante lendário onde você degusta o clássico 'Zürcher Geschnetzeltes' rodeado por obras de arte originais.",
             "cidade": "Zurique",
             "endereco": "Rämistrasse 4",
-            "imagemUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400",
+            "pais": "Suíça",
+            "bandeira": "🇨🇭"
         },
         {
-            "id": 59,
+            "id": "59",
             "nome": "Café de Paris",
             "descricao": "Famoso no mundo todo por servir um único prato: filé com um molho de manteiga de ervas cuja receita é secreta.",
             "cidade": "Genebra",
             "endereco": "Rue du Mont-Blanc 26",
-            "imagemUrl": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=400"
+            "imagemUrl": "https://images.unsplash.com/photo-1600891964092-4316c288032e?w=400",
+            "pais": "Suíça",
+            "bandeira": "🇨🇭"
         },
         {
-            "id": 60,
+            "id": "60",
             "nome": "Bains des Pâquis",
             "descricao": "Um local descontraído e icônico em píeres no lago de Genebra, famoso pelo fondue de queijo durante os meses de inverno.",
             "cidade": "Genebra",
             "endereco": "Quai du Mont-Blanc 30",
-            "imagemUrl": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2c/2c/c4/c3/caption.jpg"
+            "imagemUrl": "https://media-cdn.tripadvisor.com/media/photo-m/1280/2c/2c/c4/c3/caption.jpg",
+            "pais": "Suíça",
+            "bandeira": "🇨🇭"
         },
         {
-            "id": 61,
+            "id": "61",
             "nome": "Chateau de La Fondue",
             "descricao": "Experiência clássica de Gramado com a tradicional sequência de fondue de queijo, carne e chocolate em um ambiente romântico.",
             "cidade": "Gramado",
             "endereco": "R. João Petry, 165",
-            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkCQo6wdd9RDlOUjkTbNd6kGOknxB4HfyoKA&s"
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkCQo6wdd9RDlOUjkTbNd6kGOknxB4HfyoKA&s",
+            "pais": "Brasil",
+            "bandeira": "🇧🇷"
         }
     ]
 }

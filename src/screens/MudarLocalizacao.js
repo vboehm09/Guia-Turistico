@@ -1,117 +1,33 @@
 import { View, Text, StyleSheet, TouchableOpacity, Pressable, SectionList } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import db from '../data/db.json';
+import { useCidade } from '../context/CidadeContext';
 
-const locais = [
-    {
-        title: 'Brasil 🇧🇷',
-        data: [
-            { id: '1', nome: 'Rio de Janeiro', estado: 'RJ' },
-            { id: '2', nome: 'São Paulo', estado: 'SP' },
-            { id: '3', nome: 'Gramado', estado: 'RS' },
-        ],
-    },
-    {
-        title: 'França 🇫🇷',
-        data: [
-            { id: '4', nome: 'Paris', estado: 'Île-de-France' },
-            { id: '5', nome: 'Nice', estado: 'Alpes-Marítimos' },
-        ],
-    },
-    {
-        title: 'Estados Unidos 🇺🇸',
-        data: [
-            { id: '6', nome: 'Nova York', estado: 'NY' },
-            { id: '7', nome: 'Orlando', estado: 'FL' },
-        ],
-    },
-    {
-        title: 'Itália 🇮🇹',
-        data: [
-            { id: '8', nome: 'Roma', estado: 'Lazio' },
-            { id: '9', nome: 'Milão', estado: 'MI' },
-        ],
-    },
-    {
-        title: 'Japão 🇯🇵',
-        data: [
-            { id: '10', nome: 'Tóquio', estado: 'Tóquio' },
-            { id: '11', nome: 'Osaka', estado: 'Osaka' },
-        ],
-    },
-    {
-        title: 'Portugal 🇵🇹',
-        data: [
-            { id: '12', nome: 'Lisboa', estado: 'Lisboa' },
-            { id: '13', nome: 'Porto', estado: 'Porto' },
-        ],
-    },
-    {
-        title: 'Espanha 🇪🇸',
-        data: [
-            { id: '14', nome: 'Madrid', estado: 'Madrid' },
-            { id: '15', nome: 'Barcelona', estado: 'Catalunha' },
-        ],
-    },
-    {
-        title: 'Inglaterra 🇬🇧',
-        data: [
-            { id: '16', nome: 'Londres', estado: 'Grande Londres' },
-            { id: '17', nome: 'Liverpool', estado: 'Merseyside' },
-        ],
-    },
-    {
-        title: 'Alemanha 🇩🇪',
-        data: [
-            { id: '18', nome: 'Berlim', estado: 'Berlim' },
-            { id: '19', nome: 'Munique', estado: 'Baviera' },
-        ],
-    },
-    {
-        title: 'Argentina 🇦🇷',
-        data: [
-            { id: '20', nome: 'Buenos Aires', estado: 'Capital Federal' },
-            { id: '21', nome: 'Mendoza', estado: 'Mendoza' },
-        ],
-    },
-    {
-        title: 'México 🇲🇽',
-        data: [
-            { id: '22', nome: 'Cidade do México', estado: 'CDMX' },
-            { id: '23', nome: 'Cancún', estado: 'Quintana Roo' },
-        ],
-    },
-    {
-        title: 'Canadá 🇨🇦',
-        data: [
-            { id: '24', nome: 'Toronto', estado: 'Ontário' },
-            { id: '25', nome: 'Vancouver', estado: 'Colúmbia Britânica' },
-        ],
-    },
-    {
-        title: 'Austrália 🇦🇺',
-        data: [
-            { id: '26', nome: 'Sydney', estado: 'Nova Gales do Sul' },
-            { id: '27', nome: 'Melbourne', estado: 'Victoria' },
-        ],
-    },
-    {
-        title: 'Grécia 🇬🇷',
-        data: [
-            { id: '28', nome: 'Atenas', estado: 'Ática' },
-            { id: '29', nome: 'Santorini', estado: 'Cíclades' },
-        ],
-    },
-    {
-        title: 'Suíça 🇨🇭',
-        data: [
-            { id: '30', nome: 'Zurique', estado: 'Zurique' },
-            { id: '31', nome: 'Genebra', estado: 'Genebra' },
-        ],
-    },
-];
+// Gera as seções dinamicamente a partir do db.json — sem dados duplicados
+function gerarSecoes() {
+    const mapa = {};
+
+    [...db.pontos, ...db.restaurantes].forEach((item) => {
+        const chave = item.pais;
+        if (!mapa[chave]) {
+            mapa[chave] = { title: `${item.pais} ${item.bandeira}`, data: [] };
+        }
+        const jaExiste = mapa[chave].data.some((c) => c.nome === item.cidade);
+        if (!jaExiste) {
+            mapa[chave].data.push({ nome: item.cidade, pais: item.pais });
+        }
+    });
+
+    return Object.values(mapa).sort((a, b) => a.title.localeCompare(b.title));
+}
+
+const secoes = gerarSecoes();
 
 export default function MudarLocalizacao({ navigation }) {
+    const { setCidadeSelecionada } = useCidade();
+
     const selecionarCidade = (cidade) => {
+        setCidadeSelecionada(cidade);
         navigation.replace('DestinoPontos', { destino: cidade });
     };
 
@@ -126,8 +42,8 @@ export default function MudarLocalizacao({ navigation }) {
                 </View>
 
                 <SectionList
-                    sections={locais}
-                    keyExtractor={(item) => item.id}
+                    sections={secoes}
+                    keyExtractor={(item) => item.nome}
                     showsVerticalScrollIndicator={false}
                     renderSectionHeader={({ section: { title } }) => (
                         <Text style={styles.countryHeader}>{title}</Text>
@@ -143,10 +59,7 @@ export default function MudarLocalizacao({ navigation }) {
                                     color="#EF4444"
                                     style={styles.icon}
                                 />
-                                <View>
-                                    <Text style={styles.cityName}>{item.nome}</Text>
-                                    <Text style={styles.cityState}>{item.estado}</Text>
-                                </View>
+                                <Text style={styles.cityName}>{item.nome}</Text>
                             </View>
                             <Ionicons name="chevron-forward" size={18} color="#D1D5DB" />
                         </TouchableOpacity>
@@ -213,9 +126,5 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: 'bold',
         color: '#374151',
-    },
-    cityState: {
-        fontSize: 13,
-        color: '#6B7280',
     },
 });

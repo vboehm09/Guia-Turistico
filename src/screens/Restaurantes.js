@@ -1,12 +1,19 @@
 import { View, FlatList, StyleSheet } from 'react-native';
 import db from '../data/db.json';
 import CardItem from '../components/CardItem';
+import { useCidade } from '../context/CidadeContext';
 
 export default function Restaurantes({ navigation }) {
+    const { cidadeSelecionada } = useCidade();
+
+    const dados = cidadeSelecionada
+        ? db.restaurantes.filter((item) => item.cidade === cidadeSelecionada.nome)
+        : db.restaurantes;
+
     return (
         <View style={styles.container}>
             <FlatList
-                data={db.restaurantes}
+                data={dados}
                 keyExtractor={(item) => item.id}
                 renderItem={({ item }) => (
                     <CardItem

@@ -6,7 +6,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { Ionicons } from '@expo/vector-icons';
 
-// Importação das telas
+import { CidadeProvider, useCidade } from './src/context/CidadeContext';
+
 import PontosTuristicos from './src/screens/PontosTuristicos';
 import Restaurantes from './src/screens/Restaurantes';
 import Detalhes from './src/screens/Detalhes';
@@ -48,7 +49,6 @@ function MainStack() {
     return (
         <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen name="HomeTabs" component={TabNavigator} />
-
             <Stack.Screen
                 name="Detalhes"
                 component={Detalhes}
@@ -59,7 +59,6 @@ function MainStack() {
                     headerStyle: { backgroundColor: '#2563EB' },
                 }}
             />
-
             <Stack.Screen
                 name="MudarLocalizacao"
                 component={MudarLocalizacao}
@@ -70,7 +69,6 @@ function MainStack() {
                     contentStyle: { backgroundColor: 'transparent' },
                 }}
             />
-
             <Stack.Screen
                 name="DestinoPontos"
                 component={DestinoPontos}
@@ -85,69 +83,83 @@ function MainStack() {
     );
 }
 
-export default function App() {
+function DrawerNavigator() {
+    const { cidadeSelecionada } = useCidade();
+
     return (
-        <NavigationContainer>
-            <Drawer.Navigator
-                screenOptions={{
-                    headerStyle: { backgroundColor: '#2563EB' },
-                    headerTintColor: '#FFF',
-                    headerTitleAlign: 'center',
-                    drawerActiveBackgroundColor: '#DBEAFE',
-                    drawerActiveTintColor: '#2563EB',
-                }}>
-                <Drawer.Screen
-                    name="Início"
-                    component={MainStack}
-                    options={({ navigation }) => ({
-                        drawerIcon: ({ color }) => (
-                            <Ionicons name="home-outline" size={22} color={color} />
-                        ),
-                        headerTitle: () => (
-                            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                                <Image
-                                    source={require('./assets/sem fundo.png')}
-                                    style={{ width: 35, height: 75, marginRight: 8 }}
-                                    resizeMode="contain"
-                                />
+        <Drawer.Navigator
+            screenOptions={{
+                headerStyle: { backgroundColor: '#2563EB' },
+                headerTintColor: '#FFF',
+                headerTitleAlign: 'center',
+                drawerActiveBackgroundColor: '#DBEAFE',
+                drawerActiveTintColor: '#2563EB',
+            }}>
+            <Drawer.Screen
+                name="Início"
+                component={MainStack}
+                options={({ navigation }) => ({
+                    drawerIcon: ({ color }) => (
+                        <Ionicons name="home-outline" size={22} color={color} />
+                    ),
+                    headerTitle: () => (
+                        <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                            <Image
+                                source={require('./assets/sem fundo.png')}
+                                style={{ width: 35, height: 75, marginRight: 8 }}
+                                resizeMode="contain"
+                            />
+                            <View>
                                 <Text style={{ color: '#FFF', fontSize: 18, fontWeight: 'bold' }}>
                                     Zarp - Guia Turístico
                                 </Text>
+                                {cidadeSelecionada && (
+                                    <Text style={{ color: '#BFDBFE', fontSize: 12 }}>
+                                        {cidadeSelecionada.nome}
+                                    </Text>
+                                )}
                             </View>
-                        ),
+                        </View>
+                    ),
+                    headerRight: () => (
+                        <TouchableOpacity
+                            onPress={() =>
+                                navigation.navigate('Início', { screen: 'MudarLocalizacao' })
+                            }
+                            style={{ marginRight: 15 }}>
+                            <Ionicons name="location" size={24} color="#FFF" />
+                        </TouchableOpacity>
+                    ),
+                })}
+            />
+            <Drawer.Screen
+                name="Sobre"
+                component={Sobre}
+                options={{
+                    drawerIcon: ({ color }) => (
+                        <Ionicons name="information-circle-outline" size={22} color={color} />
+                    ),
+                }}
+            />
+            <Drawer.Screen
+                name="Contato"
+                component={Contato}
+                options={{
+                    drawerIcon: ({ color }) => (
+                        <Ionicons name="mail-outline" size={22} color={color} />
+                    ),
+                }}
+            />
+        </Drawer.Navigator>
+    );
+}
 
-                        headerRight: () => (
-                            <TouchableOpacity
-                                onPress={() =>
-                                    navigation.navigate('Início', { screen: 'MudarLocalizacao' })
-                                }
-                                style={{ marginRight: 15 }}>
-                                <Ionicons name="location" size={24} color="#FFF" />
-                            </TouchableOpacity>
-                        ),
-                    })}
-                />
-
-                <Drawer.Screen
-                    name="Sobre"
-                    component={Sobre}
-                    options={{
-                        drawerIcon: ({ color }) => (
-                            <Ionicons name="information-circle-outline" size={22} color={color} />
-                        ),
-                    }}
-                />
-
-                <Drawer.Screen
-                    name="Contato"
-                    component={Contato}
-                    options={{
-                        drawerIcon: ({ color }) => (
-                            <Ionicons name="mail-outline" size={22} color={color} />
-                        ),
-                    }}
-                />
-            </Drawer.Navigator>
-        </NavigationContainer>
+export default function App() {
+    return (
+        <CidadeProvider>
+            <NavigationContainer>
+                <DrawerNavigator />
+            </NavigationContainer>
+        </CidadeProvider>
     );
 }

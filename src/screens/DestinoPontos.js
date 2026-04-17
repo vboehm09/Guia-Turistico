@@ -8,79 +8,86 @@ import db from '../data/db.json';
 
 const Tab = createMaterialTopTabNavigator();
 
+// Componentes definidos FORA da função pai — não são recriados a cada render
+function ListaVazia({ cidade }) {
+    return (
+        <View style={styles.emptyContainer}>
+            <Ionicons name="search-outline" size={50} color="#9CA3AF" />
+            <Text style={styles.emptyText}>
+                Ainda não temos locais cadastrados para {cidade}.
+            </Text>
+        </View>
+    );
+}
+
+function AbaPontos({ dados, navigation }) {
+    return (
+        <View style={styles.container}>
+            <FlatList
+                data={dados}
+                keyExtractor={(item) => item.id.toString()}
+                ListEmptyComponent={<ListaVazia cidade={dados?.cidade} />}
+                renderItem={({ item }) => (
+                    <CardItem
+                        data={item}
+                        onPress={() => navigation.navigate('Detalhes', { item })}
+                    />
+                )}
+            />
+        </View>
+    );
+}
+
+function AbaRestaurantes({ dados, navigation }) {
+    return (
+        <View style={styles.container}>
+            <FlatList
+                data={dados}
+                keyExtractor={(item) => item.id.toString()}
+                ListEmptyComponent={<ListaVazia />}
+                renderItem={({ item }) => (
+                    <CardItem
+                        data={item}
+                        onPress={() => navigation.navigate('Detalhes', { item })}
+                    />
+                )}
+            />
+        </View>
+    );
+}
+
 export default function DestinoPontos({ route, navigation }) {
     const { destino } = route.params;
 
     useLayoutEffect(() => {
-        navigation.setOptions({
-            title: `Explorando ${destino.nome}`,
-        });
+        navigation.setOptions({ title: `Explorando ${destino.nome}` });
     }, [navigation, destino]);
 
     const pontosDaCidade = db.pontos.filter((item) => item.cidade === destino.nome);
     const restaurantesDaCidade = db.restaurantes.filter((item) => item.cidade === destino.nome);
 
-    const ListaVazia = () => (
-        <View style={styles.emptyContainer}>
-            <Ionicons name="search-outline" size={50} color="#9CA3AF" />
-            <Text style={styles.emptyText}>
-                Ainda não temos locais cadastrados para {destino.nome}.
-            </Text>
-        </View>
-    );
-
-    const AbaPontos = () => (
-        <View style={styles.container}>
-            <FlatList
-                data={pontosDaCidade}
-                keyExtractor={(item) => item.id.toString()}
-                ListEmptyComponent={ListaVazia}
-                renderItem={({ item }) => (
-                    <CardItem
-                        data={item}
-                        onPress={() => navigation.navigate('Detalhes', { item })}
-                    />
-                )}
-            />
-        </View>
-    );
-
-    const AbaRestaurantes = () => (
-        <View style={styles.container}>
-            <FlatList
-                data={restaurantesDaCidade}
-                keyExtractor={(item) => item.id.toString()}
-                ListEmptyComponent={ListaVazia}
-                renderItem={({ item }) => (
-                    <CardItem
-                        data={item}
-                        onPress={() => navigation.navigate('Detalhes', { item })}
-                    />
-                )}
-            />
-        </View>
-    );
+    const tabOptions = {
+        screenOptions: ({ route }) => ({
+            tabBarIcon: ({ color }) => {
+                const iconName = route.name === 'Pontos' ? 'location-outline' : 'restaurant-outline';
+                return <Ionicons name={iconName} size={20} color={color} />;
+            },
+            tabBarActiveTintColor: '#2563EB',
+            tabBarInactiveTintColor: '#6B7280',
+            tabBarIndicatorStyle: { backgroundColor: '#2563EB', height: 3 },
+            tabBarLabelStyle: { fontWeight: 'bold', textTransform: 'capitalize' },
+            tabBarStyle: { backgroundColor: '#FFF' },
+        }),
+    };
 
     return (
-        <Tab.Navigator
-            screenOptions={({ route }) => ({
-                tabBarIcon: ({ color }) => {
-                    let iconName =
-                        route.name === 'Pontos' ? 'location-outline' : 'restaurant-outline';
-                    return <Ionicons name={iconName} size={20} color={color} />;
-                },
-                tabBarActiveTintColor: '#2563EB',
-                tabBarInactiveTintColor: '#6B7280',
-                tabBarIndicatorStyle: { backgroundColor: '#2563EB', height: 3 },
-                tabBarLabelStyle: { fontWeight: 'bold', textTransform: 'capitalize' },
-                tabBarStyle: { backgroundColor: '#FFF' },
-            })}>
-            <Tab.Screen
-                name="Pontos"
-                component={AbaPontos}
-                options={{ title: 'Pontos Turísticos' }}
-            />
-            <Tab.Screen name="Restaurantes" component={AbaRestaurantes} />
+        <Tab.Navigator {...tabOptions}>
+            <Tab.Screen name="Pontos" options={{ title: 'Pontos Turísticos' }}>
+                {() => <AbaPontos dados={pontosDaCidade} navigation={navigation} />}
+            </Tab.Screen>
+            <Tab.Screen name="Restaurantes">
+                {() => <AbaRestaurantes dados={restaurantesDaCidade} navigation={navigation} />}
+            </Tab.Screen>
         </Tab.Navigator>
     );
 }
