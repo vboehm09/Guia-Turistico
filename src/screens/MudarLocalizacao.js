@@ -39,70 +39,70 @@ const locais = [
         ],
     },
     {
-        title: 'Portugal PT',
+        title: 'Portugal 🇵🇹',
         data: [
             { id: '12', nome: 'Lisboa', estado: 'Lisboa' },
             { id: '13', nome: 'Porto', estado: 'Porto' },
         ],
     },
     {
-        title: 'Espanha ES',
+        title: 'Espanha 🇪🇸',
         data: [
             { id: '14', nome: 'Madrid', estado: 'Madrid' },
             { id: '15', nome: 'Barcelona', estado: 'Catalunha' },
         ],
     },
     {
-        title: 'Inglaterra GB',
+        title: 'Inglaterra 🇬🇧',
         data: [
             { id: '16', nome: 'Londres', estado: 'Grande Londres' },
             { id: '17', nome: 'Liverpool', estado: 'Merseyside' },
         ],
     },
     {
-        title: 'Alemanha DE',
+        title: 'Alemanha 🇩🇪',
         data: [
             { id: '18', nome: 'Berlim', estado: 'Berlim' },
             { id: '19', nome: 'Munique', estado: 'Baviera' },
         ],
     },
     {
-        title: 'Argentina AR',
+        title: 'Argentina 🇦🇷',
         data: [
             { id: '20', nome: 'Buenos Aires', estado: 'Capital Federal' },
             { id: '21', nome: 'Mendoza', estado: 'Mendoza' },
         ],
     },
     {
-        title: 'México MX',
+        title: 'México 🇲🇽',
         data: [
             { id: '22', nome: 'Cidade do México', estado: 'CDMX' },
             { id: '23', nome: 'Cancún', estado: 'Quintana Roo' },
         ],
     },
     {
-        title: 'Canadá CA',
+        title: 'Canadá 🇨🇦',
         data: [
             { id: '24', nome: 'Toronto', estado: 'Ontário' },
             { id: '25', nome: 'Vancouver', estado: 'Colúmbia Britânica' },
         ],
     },
     {
-        title: 'Austrália AU',
+        title: 'Austrália 🇦🇺',
         data: [
             { id: '26', nome: 'Sydney', estado: 'Nova Gales do Sul' },
             { id: '27', nome: 'Melbourne', estado: 'Victoria' },
         ],
     },
     {
-        title: 'Grécia GR',
+        title: 'Grécia 🇬🇷',
         data: [
             { id: '28', nome: 'Atenas', estado: 'Ática' },
             { id: '29', nome: 'Santorini', estado: 'Cíclades' },
         ],
     },
     {
-        title: 'Suíça CH',
+        title: 'Suíça 🇨🇭',
         data: [
             { id: '30', nome: 'Zurique', estado: 'Zurique' },
             { id: '31', nome: 'Genebra', estado: 'Genebra' },
