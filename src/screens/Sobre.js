@@ -32,7 +32,7 @@ const Sobre = () => {
                     </View>
                     <Text style={styles.tituloDiferencial}>Curadoria</Text>
                     <Text style={styles.textoDiferencial}>
-                        Selecionamos cuidadosamente os melhores lugares da cidade
+                        Selecionamos cuidadosamente os melhores lugares das cidades
                     </Text>
                 </View>
 
