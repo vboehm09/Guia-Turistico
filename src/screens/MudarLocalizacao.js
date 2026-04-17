@@ -37,7 +37,7 @@ const locais = [
             { id: '10', nome: 'Tóquio', estado: 'Tóquio' },
             { id: '11', nome: 'Osaka', estado: 'Osaka' },
         ],
-    },  
+    },
     {
         title: 'Portugal PT',
         data: [
