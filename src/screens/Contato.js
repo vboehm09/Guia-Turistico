@@ -1,7 +1,46 @@
-import { View, Text, StyleSheet, TextInput, TouchableOpacity, ScrollView } from 'react-native';
+import { useState } from 'react';
+import {
+    View, Text, StyleSheet, TextInput,
+    TouchableOpacity, ScrollView, Alert, ActivityIndicator
+} from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
+function validarEmail(email) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
 export default function Contato() {
+    const [nome, setNome] = useState('');
+    const [email, setEmail] = useState('');
+    const [mensagem, setMensagem] = useState('');
+    const [erros, setErros] = useState({});
+    const [enviando, setEnviando] = useState(false);
+
+    const validar = () => {
+        const novosErros = {};
+        if (!nome.trim()) novosErros.nome = 'Nome é obrigatório.';
+        if (!email.trim()) novosErros.email = 'Email é obrigatório.';
+        else if (!validarEmail(email)) novosErros.email = 'Email inválido.';
+        if (!mensagem.trim()) novosErros.mensagem = 'Mensagem é obrigatória.';
+        setErros(novosErros);
+        return Object.keys(novosErros).length === 0;
+    };
+
+    const enviar = () => {
+        if (!validar()) return;
+
+        setEnviando(true);
+        // Simula envio — aqui você pode integrar uma API real
+        setTimeout(() => {
+            setEnviando(false);
+            setNome('');
+            setEmail('');
+            setMensagem('');
+            setErros({});
+            Alert.alert('Mensagem enviada!', 'Entraremos em contato em breve.');
+        }, 1500);
+    };
+
     return (
         <ScrollView style={styles.container} contentContainerStyle={{ padding: 20 }}>
             <Text style={styles.headerTitle}>Entre em Contato</Text>
@@ -31,24 +70,50 @@ export default function Contato() {
 
             <View style={styles.formContainer}>
                 <Text style={styles.formTitle}>Envie uma Mensagem</Text>
+
                 <Text style={styles.label}>Nome</Text>
-                <TextInput style={styles.input} placeholder="Seu nome completo" />
+                <TextInput
+                    style={[styles.input, erros.nome && styles.inputErro]}
+                    placeholder="Seu nome completo"
+                    value={nome}
+                    onChangeText={setNome}
+                />
+                {erros.nome && <Text style={styles.textoErro}>{erros.nome}</Text>}
+
                 <Text style={styles.label}>Email</Text>
                 <TextInput
-                    style={styles.input}
+                    style={[styles.input, erros.email && styles.inputErro]}
                     placeholder="seu@email.com"
                     keyboardType="email-address"
+                    autoCapitalize="none"
+                    value={email}
+                    onChangeText={setEmail}
                 />
+                {erros.email && <Text style={styles.textoErro}>{erros.email}</Text>}
+
                 <Text style={styles.label}>Mensagem</Text>
                 <TextInput
-                    style={[styles.input, styles.textArea]}
+                    style={[styles.input, styles.textArea, erros.mensagem && styles.inputErro]}
                     placeholder="Como podemos ajudar?"
                     multiline
                     numberOfLines={4}
+                    value={mensagem}
+                    onChangeText={setMensagem}
                 />
-                <TouchableOpacity style={styles.button}>
-                    <Ionicons name="send" size={18} color="#FFF" style={{ marginRight: 8 }} />
-                    <Text style={styles.buttonText}>Enviar Mensagem</Text>
+                {erros.mensagem && <Text style={styles.textoErro}>{erros.mensagem}</Text>}
+
+                <TouchableOpacity
+                    style={[styles.button, enviando && styles.buttonDesabilitado]}
+                    onPress={enviar}
+                    disabled={enviando}>
+                    {enviando ? (
+                        <ActivityIndicator color="#FFF" style={{ marginRight: 8 }} />
+                    ) : (
+                        <Ionicons name="send" size={18} color="#FFF" style={{ marginRight: 8 }} />
+                    )}
+                    <Text style={styles.buttonText}>
+                        {enviando ? 'Enviando...' : 'Enviar Mensagem'}
+                    </Text>
                 </TouchableOpacity>
             </View>
         </ScrollView>
@@ -87,8 +152,17 @@ const styles = StyleSheet.create({
         padding: 12,
         fontSize: 14,
         color: '#1F2937',
-        marginBottom: 16,
+        marginBottom: 4,
         backgroundColor: '#FFF',
+    },
+    inputErro: {
+        borderColor: '#EF4444',
+        marginBottom: 4,
+    },
+    textoErro: {
+        fontSize: 12,
+        color: '#EF4444',
+        marginBottom: 12,
     },
     textArea: { height: 100, textAlignVertical: 'top' },
     button: {
@@ -99,6 +173,9 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         marginTop: 8,
+    },
+    buttonDesabilitado: {
+        backgroundColor: '#93C5FD',
     },
     buttonText: { color: '#FFF', fontSize: 16, fontWeight: 'bold' },
 });

@@ -1,7 +1,7 @@
 {
     "pontos": [
         {
-            "id": "1",
+            "id": 1,
             "nome": "Cristo Redentor",
             "descricao": "Ícone do Rio de Janeiro e uma das maravilhas do mundo moderno.",
             "cidade": "Rio de Janeiro",
@@ -11,7 +11,7 @@
             "bandeira": "🇧🇷"
         },
         {
-            "id": "2",
+            "id": 2,
             "nome": "Praia de Copacabana",
             "descricao": "Uma das praias mais famosas do mundo, conhecida por seu calçadão.",
             "cidade": "Rio de Janeiro",
@@ -21,7 +21,7 @@
             "bandeira": "🇧🇷"
         },
         {
-            "id": "3",
+            "id": 3,
             "nome": "Pão de Açúcar",
             "descricao": "Complexo de morros acessível por teleférico com vista incrível.",
             "cidade": "Rio de Janeiro",
@@ -31,7 +31,7 @@
             "bandeira": "🇧🇷"
         },
         {
-            "id": "4",
+            "id": 4,
             "nome": "Arcos da Lapa",
             "descricao": "Aqueduto do século XVIII e ponto de encontro da boemia carioca.",
             "cidade": "Rio de Janeiro",
@@ -41,7 +41,7 @@
             "bandeira": "🇧🇷"
         },
         {
-            "id": "5",
+            "id": 5,
             "nome": "Museu de Arte de São Paulo (MASP)",
             "descricao": "Um dos mais importantes museus do hemisfério sul, com arquitetura icônica.",
             "cidade": "São Paulo",
@@ -51,7 +51,7 @@
             "bandeira": "🇧🇷"
         },
         {
-            "id": "6",
+            "id": 6,
             "nome": "Parque Ibirapuera",
             "descricao": "O coração verde de São Paulo, ótimo para caminhadas e cultura.",
             "cidade": "São Paulo",
@@ -61,7 +61,7 @@
             "bandeira": "🇧🇷"
         },
         {
-            "id": "7",
+            "id": 7,
             "nome": "Torre Eiffel",
             "descricao": "O marco mais famoso de Paris, oferecendo vistas deslumbrantes da cidade.",
             "cidade": "Paris",
@@ -71,7 +71,7 @@
             "bandeira": "🇫🇷"
         },
         {
-            "id": "8",
+            "id": 8,
             "nome": "Museu do Louvre",
             "descricao": "Um dos maiores museus de arte do mundo, localizado em Paris.",
             "cidade": "Paris",
@@ -81,7 +81,7 @@
             "bandeira": "🇫🇷"
         },
         {
-            "id": "9",
+            "id": 9,
             "nome": "Lago Negro",
             "descricao": "Lindo lago artificial cercado por árvores trazidas da Floresta Negra.",
             "cidade": "Gramado",
@@ -91,7 +91,7 @@
             "bandeira": "🇧🇷"
         },
         {
-            "id": "10",
+            "id": 10,
             "nome": "Catedral de Notre-Dame",
             "descricao": "Ícone gótico com vitrais deslumbrantes e história fascinante.",
             "cidade": "Paris",
@@ -101,7 +101,7 @@
             "bandeira": "🇫🇷"
         },
         {
-            "id": "11",
+            "id": 11,
             "nome": "Coliseu",
             "descricao": "O Coliseu é um anfiteatro romano icônico, conhecido por suas grandiosas estruturas e eventos históricos.",
             "cidade": "Roma",
@@ -111,7 +111,7 @@
             "bandeira": "🇮🇹"
         },
         {
-            "id": "12",
+            "id": 12,
             "nome": "Promenade des Anglais",
             "descricao": "A famosa avenida à beira-mar, perfeita para caminhadas e apreciar a vista do Mediterrâneo.",
             "cidade": "Nice",
@@ -121,7 +121,7 @@
             "bandeira": "🇫🇷"
         },
         {
-            "id": "13",
+            "id": 13,
             "nome": "Colline du Château",
             "descricao": "Parque com ruínas históricas, cachoeira artificial e uma vista panorâmica incrível da Baie des Anges.",
             "cidade": "Nice",
@@ -131,7 +131,7 @@
             "bandeira": "🇫🇷"
         },
         {
-            "id": "14",
+            "id": 14,
             "nome": "Estatua da Liberdade",
             "descricao": "Símbolo icônico da liberdade e democracia, localizada em Nova York.",
             "cidade": "Nova York",
@@ -141,7 +141,7 @@
             "bandeira": "🇺🇸"
         },
         {
-            "id": "15",
+            "id": 15,
             "nome": "Central Park",
             "descricao": "Enorme parque urbano no coração de Manhattan, com lagos, trilhas e atrações culturais.",
             "cidade": "Nova York",
@@ -151,7 +151,7 @@
             "bandeira": "🇺🇸"
         },
         {
-            "id": "16",
+            "id": 16,
             "nome": "Walt Disney World",
             "descricao": "O mais famoso complexo de parques temáticos do mundo, com quatro parques principais e muita magia.",
             "cidade": "Orlando",
@@ -161,7 +161,7 @@
             "bandeira": "🇺🇸"
         },
         {
-            "id": "17",
+            "id": 17,
             "nome": "Universal Studios Florida",
             "descricao": "Parque temático dedicado a filmes e programas de TV, com atrações emocionantes e simuladores.",
             "cidade": "Orlando",
@@ -171,7 +171,7 @@
             "bandeira": "🇺🇸"
         },
         {
-            "id": "18",
+            "id": 18,
             "nome": "Fontana di Trevi",
             "descricao": "A maior e mais famosa fonte barroca de Roma, onde diz a tradição que jogar uma moeda garante seu retorno à cidade.",
             "cidade": "Roma",
@@ -181,7 +181,7 @@
             "bandeira": "🇮🇹"
         },
         {
-            "id": "19",
+            "id": 19,
             "nome": "Duomo di Milano",
             "descricao": "A imponente catedral gótica de Milão, famosa por sua arquitetura detalhada e terraços com vista para a cidade.",
             "cidade": "Milão",
@@ -191,7 +191,7 @@
             "bandeira": "🇮🇹"
         },
         {
-            "id": "20",
+            "id": 20,
             "nome": "Galleria Vittorio Emanuele II",
             "descricao": "Uma das galerias comerciais mais antigas do mundo, conhecida por seu teto de vidro deslumbrante e lojas de grife.",
             "cidade": "Milão",
@@ -201,7 +201,7 @@
             "bandeira": "🇮🇹"
         },
         {
-            "id": "21",
+            "id": 21,
             "nome": "Templo Senso-ji",
             "descricao": "O templo budista mais antigo e icônico de Tóquio, famoso pelo portão Kaminarimon e pela rua de compras Nakamise.",
             "cidade": "Tóquio",
@@ -211,7 +211,7 @@
             "bandeira": "🇯🇵"
         },
         {
-            "id": "22",
+            "id": 22,
             "nome": "Cruzamento de Shibuya",
             "descricao": "O cruzamento mais movimentado do mundo, cercado por telões de LED e símbolo da energia pulsante da metrópole.",
             "cidade": "Tóquio",
@@ -221,7 +221,7 @@
             "bandeira": "🇯🇵"
         },
         {
-            "id": "23",
+            "id": 23,
             "nome": "Castelo de Osaka",
             "descricao": "Um dos marcos históricos mais famosos do Japão, cercado por um enorme parque e fossos impressionantes.",
             "cidade": "Osaka",
@@ -231,7 +231,7 @@
             "bandeira": "🇯🇵"
         },
         {
-            "id": "24",
+            "id": 24,
             "nome": "Dotonbori",
             "descricao": "O coração vibrante de Osaka, conhecido por seus letreiros luminosos gigantes, canais e incrível comida de rua.",
             "cidade": "Osaka",
@@ -241,7 +241,7 @@
             "bandeira": "🇯🇵"
         },
         {
-            "id": "25",
+            "id": 25,
             "nome": "Obelisco",
             "descricao": "O maior ícone de Buenos Aires, localizado no cruzamento das avenidas 9 de Julio e Corrientes.",
             "cidade": "Buenos Aires",
@@ -251,7 +251,7 @@
             "bandeira": "🇦🇷"
         },
         {
-            "id": "26",
+            "id": 26,
             "nome": "Caminito",
             "descricao": "Rua museu colorida e tradicional, famosa pelo tango e pelas casas de zinco no bairro de La Boca.",
             "cidade": "Buenos Aires",
@@ -261,7 +261,7 @@
             "bandeira": "🇦🇷"
         },
         {
-            "id": "27",
+            "id": 27,
             "nome": "Parque General San Martín",
             "descricao": "O principal e mais antigo parque de Mendoza, com 394 hectares e portões trazidos da Inglaterra.",
             "cidade": "Mendoza",
@@ -271,7 +271,7 @@
             "bandeira": "🇦🇷"
         },
         {
-            "id": "28",
+            "id": 28,
             "nome": "Cerro de la Gloria",
             "descricao": "Monumento ao Exército dos Andes no topo de uma colina com vista panorâmica da cidade.",
             "cidade": "Mendoza",
@@ -281,7 +281,7 @@
             "bandeira": "🇦🇷"
         },
         {
-            "id": "29",
+            "id": 29,
             "nome": "Palácio de Bellas Artes",
             "descricao": "Um dos edifícios mais belos do mundo, famoso por sua arquitetura e murais históricos.",
             "cidade": "Cidade do México",
@@ -291,7 +291,7 @@
             "bandeira": "🇲🇽"
         },
         {
-            "id": "30",
+            "id": 30,
             "nome": "Museu Frida Kahlo",
             "descricao": "A 'Casa Azul' onde a artista viveu, agora um museu dedicado à sua vida e obra.",
             "cidade": "Cidade do México",
@@ -301,7 +301,7 @@
             "bandeira": "🇲🇽"
         },
         {
-            "id": "31",
+            "id": 31,
             "nome": "Zona Arqueológica de El Rey",
             "descricao": "Ruínas maias históricas localizadas bem no coração da zona hoteleira.",
             "cidade": "Cancún",
@@ -311,7 +311,7 @@
             "bandeira": "🇲🇽"
         },
         {
-            "id": "32",
+            "id": 32,
             "nome": "Playa Delfines",
             "descricao": "Uma das praias mais bonitas de Cancún, famosa pelo letreiro colorido e mar azul turquesa.",
             "cidade": "Cancún",
@@ -321,7 +321,7 @@
             "bandeira": "🇲🇽"
         },
         {
-            "id": "33",
+            "id": 33,
             "nome": "CN Tower",
             "descricao": "Uma das torres mais altas do mundo, oferecendo uma vista 360 graus de Toronto.",
             "cidade": "Toronto",
@@ -331,7 +331,7 @@
             "bandeira": "🇨🇦"
         },
         {
-            "id": "34",
+            "id": 34,
             "nome": "Distillery District",
             "descricao": "Vila histórica para pedestres com edifícios industriais do século XIX e lojas modernas.",
             "cidade": "Toronto",
@@ -341,7 +341,7 @@
             "bandeira": "🇨🇦"
         },
         {
-            "id": "35",
+            "id": 35,
             "nome": "Stanley Park",
             "descricao": "Um enorme parque urbano com vista para o mar, totens indígenas e ciclovias.",
             "cidade": "Vancouver",
@@ -351,7 +351,7 @@
             "bandeira": "🇨🇦"
         },
         {
-            "id": "36",
+            "id": 36,
             "nome": "Capilano Suspension Bridge",
             "descricao": "Famosa ponte suspensa que atravessa o rio Capilano em meio a uma floresta densa.",
             "cidade": "Vancouver",
@@ -361,7 +361,7 @@
             "bandeira": "🇨🇦"
         },
         {
-            "id": "37",
+            "id": 37,
             "nome": "Sydney Opera House",
             "descricao": "Obra-prima da arquitetura moderna e o maior símbolo cultural da Austrália.",
             "cidade": "Sydney",
@@ -371,7 +371,7 @@
             "bandeira": "🇦🇺"
         },
         {
-            "id": "38",
+            "id": 38,
             "nome": "Bondi Beach",
             "descricao": "Uma das praias mais famosas do mundo, paraíso dos surfistas e da cultura relax.",
             "cidade": "Sydney",
@@ -381,7 +381,7 @@
             "bandeira": "🇦🇺"
         },
         {
-            "id": "39",
+            "id": 39,
             "nome": "Royal Botanic Gardens",
             "descricao": "Belíssimos jardins no centro da cidade, perfeitos para um passeio tranquilo.",
             "cidade": "Melbourne",
@@ -391,7 +391,7 @@
             "bandeira": "🇦🇺"
         },
         {
-            "id": "40",
+            "id": 40,
             "nome": "Federation Square",
             "descricao": "Um espaço público vibrante com museus, galerias e uma arquitetura geométrica ousada.",
             "cidade": "Melbourne",
@@ -401,7 +401,7 @@
             "bandeira": "🇦🇺"
         },
         {
-            "id": "41",
+            "id": 41,
             "nome": "Acrópole de Atenas",
             "descricao": "O berço da democracia, com o majestoso Partenon vigiando a cidade moderna.",
             "cidade": "Atenas",
@@ -411,7 +411,7 @@
             "bandeira": "🇬🇷"
         },
         {
-            "id": "42",
+            "id": 42,
             "nome": "Bairro de Plaka",
             "descricao": "O 'Bairro dos Deuses', com ruas estreitas, tabernas antigas e casas de estilo neoclássico.",
             "cidade": "Atenas",
@@ -421,7 +421,7 @@
             "bandeira": "🇬🇷"
         },
         {
-            "id": "43",
+            "id": 43,
             "nome": "Oia Sunset",
             "descricao": "O pôr do sol mais famoso do mundo, entre cúpulas azuis e casas brancas na beira do penhasco.",
             "cidade": "Santorini",
@@ -431,7 +431,7 @@
             "bandeira": "🇬🇷"
         },
         {
-            "id": "44",
+            "id": 44,
             "nome": "Red Beach",
             "descricao": "Praia única cercada por penhascos de areia vulcânica vermelha e águas cristalinas.",
             "cidade": "Santorini",
@@ -441,7 +441,7 @@
             "bandeira": "🇬🇷"
         },
         {
-            "id": "45",
+            "id": 45,
             "nome": "Lago Zurique",
             "descricao": "Um lago pitoresco cercado por montanhas, perfeito para cruzeiros e passeios à beira-mar.",
             "cidade": "Zurique",
@@ -451,7 +451,7 @@
             "bandeira": "🇨🇭"
         },
         {
-            "id": "46",
+            "id": 46,
             "nome": "Fraumünster",
             "descricao": "Igreja famosa por seus vitrais coloridos projetados por Marc Chagall.",
             "cidade": "Zurique",
@@ -461,7 +461,7 @@
             "bandeira": "🇨🇭"
         },
         {
-            "id": "47",
+            "id": 47,
             "nome": "Jet d'Eau",
             "descricao": "A enorme fonte de água no Lago Genebra, lançando água a 140 metros de altura.",
             "cidade": "Genebra",
@@ -471,7 +471,7 @@
             "bandeira": "🇨🇭"
         },
         {
-            "id": "48",
+            "id": 48,
             "nome": "Palais des Nations",
             "descricao": "Sede europeia das Nações Unidas, um símbolo de diplomacia e paz mundial.",
             "cidade": "Genebra",
@@ -481,7 +481,7 @@
             "bandeira": "🇨🇭"
         },
         {
-            "id": "49",
+            "id": 49,
             "nome": "Torre de Belém",
             "descricao": "Fortaleza histórica às margens do Rio Tejo, símbolo das descobertas portuguesas.",
             "cidade": "Lisboa",
@@ -491,7 +491,7 @@
             "bandeira": "🇵🇹"
         },
         {
-            "id": "50",
+            "id": 50,
             "nome": "Mosteiro dos Jerónimos",
             "descricao": "Obra-prima da arquitetura manuelina e local de repouso de Vasco da Gama.",
             "cidade": "Lisboa",
@@ -501,7 +501,7 @@
             "bandeira": "🇵🇹"
         },
         {
-            "id": "51",
+            "id": 51,
             "nome": "Livraria Lello",
             "descricao": "Uma das livrarias mais bonitas do mundo, conhecida por sua escadaria vermelha icônica.",
             "cidade": "Porto",
@@ -511,7 +511,7 @@
             "bandeira": "🇵🇹"
         },
         {
-            "id": "52",
+            "id": 52,
             "nome": "Ponte Luís I",
             "descricao": "Ponte metálica de dois andares que liga as cidades do Porto e Vila Nova de Gaia.",
             "cidade": "Porto",
@@ -521,7 +521,7 @@
             "bandeira": "🇵🇹"
         },
         {
-            "id": "53",
+            "id": 53,
             "nome": "Museu do Prado",
             "descricao": "Um dos museus de arte mais importantes do mundo, com obras de Goya e Velázquez.",
             "cidade": "Madrid",
@@ -531,7 +531,7 @@
             "bandeira": "🇪🇸"
         },
         {
-            "id": "54",
+            "id": 54,
             "nome": "Parque de El Retiro",
             "descricao": "O pulmão verde de Madrid, com um lago maravilhoso e o Palácio de Cristal.",
             "cidade": "Madrid",
@@ -541,7 +541,7 @@
             "bandeira": "🇪🇸"
         },
         {
-            "id": "55",
+            "id": 55,
             "nome": "Sagrada Família",
             "descricao": "A impressionante basílica desenhada por Gaudí, famosa por suas torres e detalhes únicos.",
             "cidade": "Barcelona",
@@ -551,7 +551,7 @@
             "bandeira": "🇪🇸"
         },
         {
-            "id": "56",
+            "id": 56,
             "nome": "Park Güell",
             "descricao": "Parque público com jardins e elementos arquitetônicos coloridos localizados no Monte Carmel.",
             "cidade": "Barcelona",
@@ -561,7 +561,7 @@
             "bandeira": "🇪🇸"
         },
         {
-            "id": "57",
+            "id": 57,
             "nome": "Big Ben",
             "descricao": "O relógio mais famoso do mundo, situado na torre do Palácio de Westminster.",
             "cidade": "Londres",
@@ -571,7 +571,7 @@
             "bandeira": "🇬🇧"
         },
         {
-            "id": "58",
+            "id": 58,
             "nome": "The British Museum",
             "descricao": "Dedicado à história humana, arte e cultura, abrigando a Pedra de Roseta.",
             "cidade": "Londres",
@@ -581,7 +581,7 @@
             "bandeira": "🇬🇧"
         },
         {
-            "id": "59",
+            "id": 59,
             "nome": "The Beatles Story",
             "descricao": "A maior exposição do mundo dedicada exclusivamente à vida e época dos Beatles.",
             "cidade": "Liverpool",
@@ -591,7 +591,7 @@
             "bandeira": "🇬🇧"
         },
         {
-            "id": "60",
+            "id": 60,
             "nome": "Liverpool Cathedral",
             "descricao": "A maior catedral do Reino Unido, com vistas panorâmicas incríveis da cidade.",
             "cidade": "Liverpool",
@@ -601,7 +601,7 @@
             "bandeira": "🇬🇧"
         },
         {
-            "id": "61",
+            "id": 61,
             "nome": "Portão de Brandemburgo",
             "descricao": "Monumento neoclássico do século XVIII e símbolo de paz e unidade alemã.",
             "cidade": "Berlim",
@@ -611,7 +611,7 @@
             "bandeira": "🇩🇪"
         },
         {
-            "id": "62",
+            "id": 62,
             "nome": "Muro de Berlim",
             "descricao": "A East Side Gallery é o trecho preservado do muro coberto por grafites artísticos.",
             "cidade": "Berlim",
@@ -621,7 +621,7 @@
             "bandeira": "🇩🇪"
         },
         {
-            "id": "63",
+            "id": 63,
             "nome": "Marienplatz",
             "descricao": "A praça central de Munique desde 1158, famosa pelo Glockenspiel (carrilhão).",
             "cidade": "Munique",
@@ -631,7 +631,7 @@
             "bandeira": "🇩🇪"
         },
         {
-            "id": "64",
+            "id": 64,
             "nome": "BMW Welt",
             "descricao": "Centro de exposições multifuncional da BMW com arquitetura futurista.",
             "cidade": "Munique",
@@ -643,7 +643,7 @@
     ],
     "restaurantes": [
         {
-            "id": "1",
+            "id": 1,
             "nome": "Churrascaria Brasa Viva",
             "descricao": "Autêntica churrascaria brasileira com rodízio de carnes nobres.",
             "cidade": "Rio de Janeiro",
@@ -653,7 +653,7 @@
             "bandeira": "🇧🇷"
         },
         {
-            "id": "2",
+            "id": 2,
             "nome": "Maré Alta Frutos do Mar",
             "descricao": "Restaurante de frutos do mar com vista privilegiada para o oceano.",
             "cidade": "Rio de Janeiro",
@@ -663,7 +663,7 @@
             "bandeira": "🇧🇷"
         },
         {
-            "id": "3",
+            "id": 3,
             "nome": "La Merenda",
             "descricao": "Bistrô tradicional francês oferecendo pratos clássicos de Nice em um ambiente aconchegante.",
             "cidade": "Nice",
@@ -673,7 +673,7 @@
             "bandeira": "🇫🇷"
         },
         {
-            "id": "4",
+            "id": 4,
             "nome": "Le Chantecler",
             "descricao": "Restaurante com estrelas Michelin que oferece uma experiência luxuosa de alta gastronomia.",
             "cidade": "Nice",
@@ -683,7 +683,7 @@
             "bandeira": "🇫🇷"
         },
         {
-            "id": "5",
+            "id": 5,
             "nome": "Katz's Delicatessen",
             "descricao": "Famosa deli nova-iorquina, conhecida mundialmente pelo seu sanduíche gigante de pastrami.",
             "cidade": "Nova York",
@@ -693,7 +693,7 @@
             "bandeira": "🇺🇸"
         },
         {
-            "id": "6",
+            "id": 6,
             "nome": "Carmine's Italian Restaurant",
             "descricao": "Restaurante italiano de porções generosas para compartilhar, no coração da Times Square.",
             "cidade": "Nova York",
@@ -703,7 +703,7 @@
             "bandeira": "🇺🇸"
         },
         {
-            "id": "7",
+            "id": 7,
             "nome": "The Boathouse",
             "descricao": "Frutos do mar, bifes e ambiente descontraído com vista para o lago em Disney Springs.",
             "cidade": "Orlando",
@@ -713,7 +713,7 @@
             "bandeira": "🇺🇸"
         },
         {
-            "id": "8",
+            "id": 8,
             "nome": "Be Our Guest Restaurant",
             "descricao": "Experiência mágica em um castelo com pratos inspirados na culinária francesa.",
             "cidade": "Orlando",
@@ -723,7 +723,7 @@
             "bandeira": "🇺🇸"
         },
         {
-            "id": "9",
+            "id": 9,
             "nome": "Da Enzo al 29",
             "descricao": "Trattoria típica romana no charmoso bairro de Trastevere. Massas incríveis.",
             "cidade": "Roma",
@@ -733,7 +733,7 @@
             "bandeira": "🇮🇹"
         },
         {
-            "id": "10",
+            "id": 10,
             "nome": "Antico Forno Roscioli",
             "descricao": "Padaria, restaurante e pizzaria famosa pelos ingredientes frescos e de alta qualidade.",
             "cidade": "Roma",
@@ -743,7 +743,7 @@
             "bandeira": "🇮🇹"
         },
         {
-            "id": "11",
+            "id": 11,
             "nome": "Ristorante Cracco",
             "descricao": "Alta gastronomia italiana pelas mãos do renomado chef Carlo Cracco, na Galleria Vittorio Emanuele.",
             "cidade": "Milão",
@@ -753,7 +753,7 @@
             "bandeira": "🇮🇹"
         },
         {
-            "id": "12",
+            "id": 12,
             "nome": "Luini Panzerotti",
             "descricao": "Um ícone da comida de rua de Milão. Panzerottis recheados e fritos, sucesso desde 1888.",
             "cidade": "Milão",
@@ -763,7 +763,7 @@
             "bandeira": "🇮🇹"
         },
         {
-            "id": "13",
+            "id": 13,
             "nome": "Le Jules Verne",
             "descricao": "Restaurante sofisticado localizado no segundo andar da Torre Eiffel, com uma vista inesquecível.",
             "cidade": "Paris",
@@ -773,7 +773,7 @@
             "bandeira": "🇫🇷"
         },
         {
-            "id": "14",
+            "id": 14,
             "nome": "Café de Flore",
             "descricao": "Um dos cafés mais antigos de Paris, famoso por sua arquitetura clássica e por ter sido reduto de grandes filósofos.",
             "cidade": "Paris",
@@ -783,7 +783,7 @@
             "bandeira": "🇫🇷"
         },
         {
-            "id": "15",
+            "id": 15,
             "nome": "Mercadão de SP - Bar do Mané",
             "descricao": "Famoso pelo gigante e tradicional sanduíche de mortadela.",
             "cidade": "São Paulo",
@@ -793,7 +793,7 @@
             "bandeira": "🇧🇷"
         },
         {
-            "id": "16",
+            "id": 16,
             "nome": "D.O.M.",
             "descricao": "Alta gastronomia brasileira reconhecida mundialmente, comandada pelo chef Alex Atala.",
             "cidade": "São Paulo",
@@ -803,7 +803,7 @@
             "bandeira": "🇧🇷"
         },
         {
-            "id": "17",
+            "id": 17,
             "nome": "Ichiran Shibuya",
             "descricao": "O ramen mais famoso do Japão, conhecido por suas cabines individuais e caldo Tonkotsu artesanal.",
             "cidade": "Tóquio",
@@ -813,7 +813,7 @@
             "bandeira": "🇯🇵"
         },
         {
-            "id": "18",
+            "id": 18,
             "nome": "Kyubey Ginza",
             "descricao": "Referência mundial em sushi tradicional, oferecendo peças preparadas na hora com peixes fresquíssimos.",
             "cidade": "Tóquio",
@@ -823,7 +823,7 @@
             "bandeira": "🇯🇵"
         },
         {
-            "id": "19",
+            "id": 19,
             "nome": "Mizuno Okonomiyaki",
             "descricao": "Tradicional e premiado restaurante especializado em Okonomiyaki, a famosa 'panqueca japonesa' de Osaka.",
             "cidade": "Osaka",
@@ -833,7 +833,7 @@
             "bandeira": "🇯🇵"
         },
         {
-            "id": "20",
+            "id": 20,
             "nome": "Kani Doraku",
             "descricao": "Famoso pelo caranguejo gigante na fachada, oferece pratos sofisticados à base de frutos do mar.",
             "cidade": "Osaka",
@@ -843,7 +843,7 @@
             "bandeira": "🇯🇵"
         },
         {
-            "id": "21",
+            "id": 21,
             "nome": "Pastéis de Belém",
             "descricao": "A confeitaria mais famosa de Portugal, servindo os autênticos e originais pastéis de nata desde 1837.",
             "cidade": "Lisboa",
@@ -853,7 +853,7 @@
             "bandeira": "🇵🇹"
         },
         {
-            "id": "22",
+            "id": 22,
             "nome": "Cervejaria Ramiro",
             "descricao": "Um verdadeiro templo dos frutos do mar em Lisboa, famoso pelos camarões gigantes e sapateiras.",
             "cidade": "Lisboa",
@@ -863,7 +863,7 @@
             "bandeira": "🇵🇹"
         },
         {
-            "id": "23",
+            "id": 23,
             "nome": "Café Santiago",
             "descricao": "O local mais icônico para provar a autêntica Francesinha, o prato tradicional e generoso do Porto.",
             "cidade": "Porto",
@@ -873,7 +873,7 @@
             "bandeira": "🇵🇹"
         },
         {
-            "id": "24",
+            "id": 24,
             "nome": "Majestic Café",
             "descricao": "Café histórico deslumbrante no estilo Belle Époque, conhecido por seu ambiente elegante e doces finos.",
             "cidade": "Porto",
@@ -883,7 +883,7 @@
             "bandeira": "🇵🇹"
         },
         {
-            "id": "25",
+            "id": 25,
             "nome": "Sobrino de Botín",
             "descricao": "Reconhecido pelo Guinness como o restaurante mais antigo do mundo, famoso pelo leitão assado (cochinillo).",
             "cidade": "Madrid",
@@ -893,7 +893,7 @@
             "bandeira": "🇪🇸"
         },
         {
-            "id": "26",
+            "id": 26,
             "nome": "Chocolatería San Ginés",
             "descricao": "A mais clássica e famosa chocolateria de Madrid, servindo churros com chocolate quente desde 1894.",
             "cidade": "Madrid",
@@ -903,7 +903,7 @@
             "bandeira": "🇪🇸"
         },
         {
-            "id": "27",
+            "id": 27,
             "nome": "Cervecería Catalana",
             "descricao": "Um dos melhores lugares da cidade para saborear uma enorme variedade de tapas e montaditos tradicionais.",
             "cidade": "Barcelona",
@@ -913,7 +913,7 @@
             "bandeira": "🇪🇸"
         },
         {
-            "id": "28",
+            "id": 28,
             "nome": "Can Culleretes",
             "descricao": "O restaurante mais antigo de Barcelona, oferecendo culinária catalã rústica e caseira em um ambiente histórico.",
             "cidade": "Barcelona",
@@ -923,7 +923,7 @@
             "bandeira": "🇪🇸"
         },
         {
-            "id": "29",
+            "id": 29,
             "nome": "Rules",
             "descricao": "O restaurante mais antigo de Londres, especializado em comida britânica tradicional, como carnes de caça e tortas.",
             "cidade": "Londres",
@@ -933,7 +933,7 @@
             "bandeira": "🇬🇧"
         },
         {
-            "id": "30",
+            "id": 30,
             "nome": "Poppies Fish & Chips",
             "descricao": "A experiência definitiva do prato mais famoso do Reino Unido, com decoração retrô dos anos 1950.",
             "cidade": "Londres",
@@ -943,7 +943,7 @@
             "bandeira": "🇬🇧"
         },
         {
-            "id": "31",
+            "id": 31,
             "nome": "Maggie May's",
             "descricao": "O lugar perfeito para provar o 'Scouse', o tradicional ensopado de carne e legumes que é o prato assinatura de Liverpool.",
             "cidade": "Liverpool",
@@ -953,7 +953,7 @@
             "bandeira": "🇬🇧"
         },
         {
-            "id": "32",
+            "id": 32,
             "nome": "The Baltic Fleet",
             "descricao": "Um pub histórico tradicional que serve cervejas artesanais locais e pratos britânicos clássicos de pub.",
             "cidade": "Liverpool",
@@ -963,7 +963,7 @@
             "bandeira": "🇬🇧"
         },
         {
-            "id": "33",
+            "id": 33,
             "nome": "Curry 36",
             "descricao": "A lanchonete de rua mais famosa de Berlim para provar o autêntico Currywurst alemão.",
             "cidade": "Berlim",
@@ -973,7 +973,7 @@
             "bandeira": "🇩🇪"
         },
         {
-            "id": "34",
+            "id": 34,
             "nome": "Zur Letzten Instanz",
             "descricao": "O restaurante mais antigo de Berlim, servindo joelho de porco (Eisbein) em um ambiente rústico desde 1621.",
             "cidade": "Berlim",
@@ -983,7 +983,7 @@
             "bandeira": "🇩🇪"
         },
         {
-            "id": "35",
+            "id": 35,
             "nome": "Hofbräuhaus München",
             "descricao": "A cervejaria mais famosa do mundo, oferecendo comida bávara, canecas de litro de cerveja e música típica.",
             "cidade": "Munique",
@@ -993,7 +993,7 @@
             "bandeira": "🇩🇪"
         },
         {
-            "id": "36",
+            "id": 36,
             "nome": "Augustiner-Keller",
             "descricao": "Um dos maiores e mais antigos biergartens de Munique, servindo pratos rústicos e cerveja tirada de barris de madeira.",
             "cidade": "Munique",
@@ -1003,7 +1003,7 @@
             "bandeira": "🇩🇪"
         },
         {
-            "id": "37",
+            "id": 37,
             "nome": "Parrilla Don Julio",
             "descricao": "Uma das melhores churrascarias do mundo, famosa por seus cortes de carne argentina premium e adega excepcional.",
             "cidade": "Buenos Aires",
@@ -1013,7 +1013,7 @@
             "bandeira": "🇦🇷"
         },
         {
-            "id": "38",
+            "id": 38,
             "nome": "Café Tortoni",
             "descricao": "O café mais antigo da cidade, um ícone cultural com decoração francesa onde intelectuais e fadistas de tango se reuniam.",
             "cidade": "Buenos Aires",
@@ -1023,7 +1023,7 @@
             "bandeira": "🇦🇷"
         },
         {
-            "id": "39",
+            "id": 39,
             "nome": "Azafrán",
             "descricao": "Restaurante acolhedor que combina a culinária regional de Mendoza com uma impressionante seleção de vinhos locais.",
             "cidade": "Mendoza",
@@ -1033,7 +1033,7 @@
             "bandeira": "🇦🇷"
         },
         {
-            "id": "40",
+            "id": 40,
             "nome": "1884 Restaurante",
             "descricao": "Comandado pelo famoso chef Francis Mallmann, oferece carnes assadas em forno de barro e fogo aberto.",
             "cidade": "Mendoza",
@@ -1043,7 +1043,7 @@
             "bandeira": "🇦🇷"
         },
         {
-            "id": "41",
+            "id": 41,
             "nome": "Pujol",
             "descricao": "Alta gastronomia mexicana reconhecida mundialmente, famosa pelo seu 'Mole Madre' envelhecido por milhares de dias.",
             "cidade": "Cidade do México",
@@ -1053,7 +1053,7 @@
             "bandeira": "🇲🇽"
         },
         {
-            "id": "42",
+            "id": 42,
             "nome": "El Cardenal",
             "descricao": "O lugar perfeito para um café da manhã ou almoço tradicional mexicano, com chocolate quente servido de forma clássica.",
             "cidade": "Cidade do México",
@@ -1063,7 +1063,7 @@
             "bandeira": "🇲🇽"
         },
         {
-            "id": "43",
+            "id": 43,
             "nome": "La Parrilla",
             "descricao": "Um dos restaurantes mais tradicionais de Cancún, oferecendo autêntica comida mexicana, mariachis e atmosfera festiva.",
             "cidade": "Cancún",
@@ -1073,7 +1073,7 @@
             "bandeira": "🇲🇽"
         },
         {
-            "id": "44",
+            "id": 44,
             "nome": "Rosa Negra",
             "descricao": "Gastronomia latino-americana sofisticada com ambiente vibrante, música ao vivo e vista para a lagoa Nichupté.",
             "cidade": "Cancún",
@@ -1083,7 +1083,7 @@
             "bandeira": "🇲🇽"
         },
         {
-            "id": "45",
+            "id": 45,
             "nome": "Canoe",
             "descricao": "Culinária canadense contemporânea servida no 54º andar, oferecendo vistas espetaculares do horizonte de Toronto.",
             "cidade": "Toronto",
@@ -1093,7 +1093,7 @@
             "bandeira": "🇨🇦"
         },
         {
-            "id": "46",
+            "id": 46,
             "nome": "Richmond Station",
             "descricao": "Restaurante movimentado no centro da cidade, conhecido por seus ingredientes locais e o famoso 'Station Burger'.",
             "cidade": "Toronto",
@@ -1103,7 +1103,7 @@
             "bandeira": "🇨🇦"
         },
         {
-            "id": "47",
+            "id": 47,
             "nome": "Miku",
             "descricao": "Famoso mundialmente por introduzir o 'Aburi' (sushi levemente maçaricado) no Canadá, com vista para a orla.",
             "cidade": "Vancouver",
@@ -1113,7 +1113,7 @@
             "bandeira": "🇨🇦"
         },
         {
-            "id": "48",
+            "id": 48,
             "nome": "Salmon n' Bannock",
             "descricao": "O único restaurante de culinária das Primeiras Nações em Vancouver, destacando carnes de caça e pão bannock.",
             "cidade": "Vancouver",
@@ -1123,7 +1123,7 @@
             "bandeira": "🇨🇦"
         },
         {
-            "id": "49",
+            "id": 49,
             "nome": "Quay",
             "descricao": "Um dos restaurantes mais premiados da Austrália, oferecendo vistas deslumbrantes da Opera House e pratos criativos.",
             "cidade": "Sydney",
@@ -1133,7 +1133,7 @@
             "bandeira": "🇦🇺"
         },
         {
-            "id": "50",
+            "id": 50,
             "nome": "The Grounds of Alexandria",
             "descricao": "Um complexo icônico que mistura cafeteria rústica, restaurante, padaria e jardins exuberantes em um antigo galpão.",
             "cidade": "Sydney",
@@ -1143,7 +1143,7 @@
             "bandeira": "🇦🇺"
         },
         {
-            "id": "51",
+            "id": 51,
             "nome": "Attica",
             "descricao": "Frequentemente listado entre os melhores restaurantes do mundo, focado em ingredientes indígenas australianos.",
             "cidade": "Melbourne",
@@ -1153,7 +1153,7 @@
             "bandeira": "🇦🇺"
         },
         {
-            "id": "52",
+            "id": 52,
             "nome": "Chin Chin",
             "descricao": "Restaurante super badalado de comida do sudeste asiático, símbolo da cultura vibrante e moderna de Melbourne.",
             "cidade": "Melbourne",
@@ -1163,7 +1163,7 @@
             "bandeira": "🇦🇺"
         },
         {
-            "id": "53",
+            "id": 53,
             "nome": "Karamanlidika",
             "descricao": "Uma charcutaria e taberna que oferece uma autêntica experiência de mezes (petiscos gregos) com queijos e carnes curadas.",
             "cidade": "Atenas",
@@ -1173,7 +1173,7 @@
             "bandeira": "🇬🇷"
         },
         {
-            "id": "54",
+            "id": 54,
             "nome": "Varoulko Seaside",
             "descricao": "Restaurante com estrela Michelin situado na marina de Mikrolimano, especializado em frutos do mar gregos requintados.",
             "cidade": "Atenas",
@@ -1183,7 +1183,7 @@
             "bandeira": "🇬🇷"
         },
         {
-            "id": "55",
+            "id": 55,
             "nome": "Ammoudi Fish Tavern",
             "descricao": "Localizado na pitoresca Baía de Ammoudi, famoso pelo polvo seco ao sol e peixes frescos servidos à beira-mar.",
             "cidade": "Santorini",
@@ -1193,7 +1193,7 @@
             "bandeira": "🇬🇷"
         },
         {
-            "id": "56",
+            "id": 56,
             "nome": "Metaxi Mas",
             "descricao": "Escondido nas montanhas, esta taberna adorada pelos moradores locais serve a autêntica comida cretense e de Santorini.",
             "cidade": "Santorini",
@@ -1203,7 +1203,7 @@
             "bandeira": "🇬🇷"
         },
         {
-            "id": "57",
+            "id": 57,
             "nome": "Zeughauskeller",
             "descricao": "Construído em um antigo arsenal de 1487, serve pratos suíços fartos e tradicionais, como salsichas e batatas rösti.",
             "cidade": "Zurique",
@@ -1213,7 +1213,7 @@
             "bandeira": "🇨🇭"
         },
         {
-            "id": "58",
+            "id": 58,
             "nome": "Kronenhalle",
             "descricao": "Um restaurante lendário onde você degusta o clássico 'Zürcher Geschnetzeltes' rodeado por obras de arte originais.",
             "cidade": "Zurique",
@@ -1223,7 +1223,7 @@
             "bandeira": "🇨🇭"
         },
         {
-            "id": "59",
+            "id": 59,
             "nome": "Café de Paris",
             "descricao": "Famoso no mundo todo por servir um único prato: filé com um molho de manteiga de ervas cuja receita é secreta.",
             "cidade": "Genebra",
@@ -1233,7 +1233,7 @@
             "bandeira": "🇨🇭"
         },
         {
-            "id": "60",
+            "id": 60,
             "nome": "Bains des Pâquis",
             "descricao": "Um local descontraído e icônico em píeres no lago de Genebra, famoso pelo fondue de queijo durante os meses de inverno.",
             "cidade": "Genebra",
@@ -1243,7 +1243,7 @@
             "bandeira": "🇨🇭"
         },
         {
-            "id": "61",
+            "id": 61,
             "nome": "Chateau de La Fondue",
             "descricao": "Experiência clássica de Gramado com a tradicional sequência de fondue de queijo, carne e chocolate em um ambiente romântico.",
             "cidade": "Gramado",

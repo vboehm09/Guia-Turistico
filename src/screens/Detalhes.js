@@ -1,18 +1,26 @@
+import { useState } from 'react';
 import { View, Text, Image, StyleSheet, ScrollView } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
+const FALLBACK = require('../../assets/sem fundo.png');
+
 export default function Detalhes({ route }) {
     const { item } = route.params;
+    const [imgError, setImgError] = useState(false);
 
-    const imageSource = item.imagemUrl
-        ? { uri: item.imagemUrl }
-        : { uri: 'https://via.placeholder.com/400x300.png?text=Sem+Foto' };
+    const imageSource = imgError || !item.imagemUrl
+        ? FALLBACK
+        : { uri: item.imagemUrl };
 
-    const textoDescricao = item.descricao || item.descricaoCurta || 'Descrição não disponível.';
+    const textoDescricao = item.descricao || 'Descrição não disponível.';
 
     return (
         <ScrollView style={styles.container} bounces={false}>
-            <Image source={imageSource} style={styles.image} />
+            <Image
+                source={imageSource}
+                style={styles.image}
+                onError={() => setImgError(true)}
+            />
 
             <View style={styles.content}>
                 <Text style={styles.title}>{item.nome}</Text>

@@ -12,16 +12,16 @@ const Sobre = () => {
 
             <Text style={styles.tituloPrincipal}>Sobre o Zarp</Text>
             <Text style={styles.tagline}>
-                Seu companheiro perfeito para descobrir as maravilhas da cidade
+                Seu companheiro perfeito para descobrir as maravilhas do mundo
             </Text>
 
             <View style={styles.section}>
                 <Text style={styles.tituloSecao}>Nossa Missão</Text>
                 <Text style={styles.textoDescritivo}>
                     Nosso aplicativo de Guia Turístico foi criado com o objetivo de facilitar a vida
-                    de turistas e moradores locais que desejam explorar as belezas e sabores da
-                    cidade. Reunimos informações essenciais sobre os principais pontos turísticos e
-                    os melhores restaurantes da região em um só lugar.
+                    de turistas e viajantes que desejam explorar as belezas e sabores do mundo.
+                    Reunimos informações essenciais sobre os principais pontos turísticos e os
+                    melhores restaurantes dos melhores destinos globais em um só lugar..
                 </Text>
             </View>
 

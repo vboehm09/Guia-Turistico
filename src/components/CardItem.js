@@ -1,21 +1,30 @@
+import { useState } from 'react';
 import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
+const FALLBACK = require('../../assets/sem fundo.png');
+
 export default function CardItem({ data, onPress }) {
-    const imageSource = data.imagemUrl
-        ? { uri: data.imagemUrl }
-        : { uri: 'https://via.placeholder.com/100x100.png?text=Sem+Foto' };
+    const [imgError, setImgError] = useState(false);
+
+    const imageSource = imgError || !data.imagemUrl
+        ? FALLBACK
+        : { uri: data.imagemUrl };
 
     return (
         <TouchableOpacity style={styles.card} onPress={onPress}>
-            <Image source={imageSource} style={styles.image} />
+            <Image
+                source={imageSource}
+                style={styles.image}
+                onError={() => setImgError(true)}
+            />
 
             <View style={styles.infoContainer}>
                 <Text style={styles.title} numberOfLines={1}>
                     {data.nome}
                 </Text>
                 <Text style={styles.description} numberOfLines={2}>
-                    {data.descricaoCurta}
+                    {data.descricao}
                 </Text>
 
                 <View style={styles.locationContainer}>

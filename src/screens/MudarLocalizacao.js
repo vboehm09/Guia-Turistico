@@ -24,11 +24,16 @@ function gerarSecoes() {
 const secoes = gerarSecoes();
 
 export default function MudarLocalizacao({ navigation }) {
-    const { setCidadeSelecionada } = useCidade();
+    const { cidadeSelecionada, setCidadeSelecionada } = useCidade();
 
     const selecionarCidade = (cidade) => {
         setCidadeSelecionada(cidade);
         navigation.replace('DestinoPontos', { destino: cidade });
+    };
+
+    const verTodos = () => {
+        setCidadeSelecionada(null);
+        navigation.navigate('Início', { screen: 'HomeTabs' });
     };
 
     return (
@@ -40,6 +45,13 @@ export default function MudarLocalizacao({ navigation }) {
                         <Ionicons name="close-circle" size={28} color="#9CA3AF" />
                     </TouchableOpacity>
                 </View>
+
+                {cidadeSelecionada && (
+                    <TouchableOpacity style={styles.verTodosBtn} onPress={verTodos}>
+                        <Ionicons name="globe-outline" size={16} color="#2563EB" />
+                        <Text style={styles.verTodosText}>Ver todos os destinos</Text>
+                    </TouchableOpacity>
+                )}
 
                 <SectionList
                     sections={secoes}
@@ -95,6 +107,22 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: 'bold',
         color: '#1F2937',
+    },
+    verTodosBtn: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: 6,
+        backgroundColor: '#EFF6FF',
+        borderWidth: 1,
+        borderColor: '#BFDBFE',
+        borderRadius: 8,
+        padding: 10,
+        marginBottom: 10,
+    },
+    verTodosText: {
+        fontSize: 14,
+        fontWeight: 'bold',
+        color: '#2563EB',
     },
     countryHeader: {
         fontSize: 18,
