@@ -380,7 +380,7 @@
             "pais": "Bolívia",
             "bandeira": "🇧🇴",
             "endereco": "Departamento de Potosí",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Salar_de_Uyuni.jpg/800px-Salar_de_Uyuni.jpg",
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Salar_Uyuni_au01.jpg",
             "lat": -20.1338,
             "lon": -67.4891
         },
@@ -392,7 +392,7 @@
             "pais": "Bolívia",
             "bandeira": "🇧🇴",
             "endereco": "Copacabana, La Paz",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Lake_Titicaca.jpg/800px-Lake_Titicaca.jpg",
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/28/9f/2b/lago-titicaca.jpg?w=1200&h=1200&s=1",
             "lat": -16.1667,
             "lon": -69.0833
         },
@@ -404,7 +404,7 @@
             "pais": "Bolívia",
             "bandeira": "🇧🇴",
             "endereco": "Aranjuez, La Paz",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Valle_de_la_Luna_Bolivia.jpg/800px-Valle_de_la_Luna_Bolivia.jpg",
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/5d/11/7f/vale.jpg?w=1200&h=1200&s=1",
             "lat": -16.5667,
             "lon": -68.0883
         },
@@ -416,7 +416,7 @@
             "pais": "Paraguai",
             "bandeira": "🇵🇾",
             "endereco": "El Paraguayo Independiente",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Palacio_de_los_Lopez_Paraguay.jpg/800px-Palacio_de_los_Lopez_Paraguay.jpg",
+            "imagemUrl": "https://www.h2foz.com.br/wp-content/uploads/2024/01/e6950eb5-070124palacio.jpg",
             "lat": -25.2798,
             "lon": -57.6366
         },
@@ -428,7 +428,7 @@
             "pais": "Paraguai",
             "bandeira": "🇵🇾",
             "endereco": "Plaza de la Independencia",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Catedral_de_Asuncion.jpg/800px-Catedral_de_Asuncion.jpg",
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Catedral_de_Asunci%C3%B3n_Paraguay.jpg",
             "lat": -25.2842,
             "lon": -57.6342
         },
@@ -440,7 +440,7 @@
             "pais": "Paraguai",
             "bandeira": "🇵🇾",
             "endereco": "Trinidad, Itapúa",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ruinas_de_Trinidad.jpg/800px-Ruinas_de_Trinidad.jpg",
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-de6afeycZLQIaEkuY5ode85sgvIMXvYKqw&s",
             "lat": -27.1211,
             "lon": -55.8889
         },
@@ -452,7 +452,7 @@
             "pais": "Uruguai",
             "bandeira": "🇺🇾",
             "endereco": "Ciudad Vieja",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ciudad_Vieja_de_Montevideo.jpg/800px-Ciudad_Vieja_de_Montevideo.jpg",
+            "imagemUrl": "https://media-cdn.tripadvisor.com/media/photo-c/1280x250/0b/d4/55/d5/church-of-ciudad-vieja.jpg",
             "lat": -34.9053,
             "lon": -56.2016
         },
@@ -464,7 +464,7 @@
             "pais": "Uruguai",
             "bandeira": "🇺🇾",
             "endereco": "Rambla República de Chile",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Rambla_Montevideo.jpg/800px-Rambla_Montevideo.jpg",
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Yatch_02.JPG",
             "lat": -34.9011,
             "lon": -56.1645
         },
@@ -476,7 +476,7 @@
             "pais": "Uruguai",
             "bandeira": "🇺🇾",
             "endereco": "Punta del Este, Maldonado",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Punta_del_Este_aerial_view.jpg/800px-Punta_del_Este_aerial_view.jpg",
+            "imagemUrl": "https://www.civitatis.com/f/argentina/buenos-aires/guia/punta-del-este.jpg",
             "lat": -34.9609,
             "lon": -54.936
         },
