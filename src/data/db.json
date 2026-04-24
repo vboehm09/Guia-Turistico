@@ -1388,7 +1388,7 @@
             "pais": "Estados Unidos",
             "bandeira": "🇺🇸",
             "endereco": "350 Fifth Avenue",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Empire_State_Building_%28aerial_view%29.jpg/800px-Empire_State_Building_%28aerial_view%29.jpg",
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg",
             "lat": 40.7484,
             "lon": -73.9967
         },
@@ -1400,7 +1400,7 @@
             "pais": "Estados Unidos",
             "bandeira": "🇺🇸",
             "endereco": "Times Square, Manhattan",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/New_york_times_square-terabass.jpg/800px-New_york_times_square-terabass.jpg",
+            "imagemUrl": "https://www.nyctourism.com/_next/image/?url=https%3A%2F%2Fimages.ctfassets.net%2F1aemqu6a6t65%2F7w7xp69KB6TE8fPIyzCihQ%2F7fae7566ec09ff43ce79975eef5c005c%2F1-Time-Square-Manhattan-NYC-Photo-Courtesy-Timelapse-Company-12.jpg%3Fh%3D1280%26w%3D1920%26fit%3Dfill%26f%3Dcenter%26q%3D75%26fm%3Dwebp&w=3840&q=75  ",
             "lat": 40.758,
             "lon": -73.9855
         },
@@ -1412,7 +1412,7 @@
             "pais": "Estados Unidos",
             "bandeira": "🇺🇸",
             "endereco": "Mount Lee, Hollywood Hills",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Sign_of_Hollywood.jpg/800px-Sign_of_Hollywood.jpg",
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hollywood_Sign_%28Zuschnitt%29.jpg/1280px-Hollywood_Sign_%28Zuschnitt%29.jpg",
             "lat": 34.1341,
             "lon": -118.3215
         },
@@ -1424,7 +1424,7 @@
             "pais": "Estados Unidos",
             "bandeira": "🇺🇸",
             "endereco": "1200 Getty Center Drive",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Getty_Center.jpg/800px-Getty_Center.jpg",
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Aerial_Getty_Museum.jpg",
             "lat": 34.078,
             "lon": -118.4741
         },
@@ -1436,7 +1436,7 @@
             "pais": "Estados Unidos",
             "bandeira": "🇺🇸",
             "endereco": "200 Santa Monica Pier",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Santa_Monica_Pier.jpg/800px-Santa_Monica_Pier.jpg",
+            "imagemUrl": "https://viagemeturismo.abril.com.br/wp-content/uploads/2024/07/pier-de-santa-monica-los-angeles-california.jpg?quality=70&strip=info&resize=1080,565&crop=1",
             "lat": 34.0088,
             "lon": -118.4974
         },
@@ -1448,7 +1448,7 @@
             "pais": "Estados Unidos",
             "bandeira": "🇺🇸",
             "endereco": "Walt Disney World Resort",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Magic_Kingdom_castle.jpg/800px-Magic_Kingdom_castle.jpg",
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/69/96/ed/the-man-who-was-like.jpg?w=1200&h=1200&s=1",
             "lat": 28.3772,
             "lon": -81.5707
         },
@@ -1460,7 +1460,7 @@
             "pais": "Estados Unidos",
             "bandeira": "🇺🇸",
             "endereco": "6000 Universal Blvd",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Universal_Studios_Florida.jpg/800px-Universal_Studios_Florida.jpg",
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgTteaXZ7f5zdwou9x7XdwiKl9ua9qcfZiiQ&s",
             "lat": 28.4742,
             "lon": -81.4668
         },
@@ -1472,7 +1472,7 @@
             "pais": "Estados Unidos",
             "bandeira": "🇺🇸",
             "endereco": "Space Commerce Way, Merritt Island",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Kennedy_Space_Center.jpg/800px-Kennedy_Space_Center.jpg",
+            "imagemUrl": "https://cdn-imgix.headout.com/microbrands-content-image/image/d064b834bebab22aeda3a22b9f631f20-Kennedy%20Space%20Center.jpg",
             "lat": 28.573,
             "lon": -80.649
         },
@@ -1484,7 +1484,7 @@
             "pais": "Canadá",
             "bandeira": "🇨🇦",
             "endereco": "290 Bremner Blvd",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Toronto_-_ON_-_CN_Tower_Close.jpg/800px-Toronto_-_ON_-_CN_Tower_Close.jpg",
+            "imagemUrl": "https://www.cntower.ca/sites/default/files/styles/16_9_scale_and_crop_large/public/images/explore-cn-tower%20.jpg.webp?itok=1kYajz48",
             "lat": 43.6426,
             "lon": -79.3871
         },
@@ -1496,7 +1496,7 @@
             "pais": "Canadá",
             "bandeira": "🇨🇦",
             "endereco": "Niagara Falls, Ontario",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Niagara_falls_2006.jpg/800px-Niagara_falls_2006.jpg",
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/3Falls_Niagara.jpg",
             "lat": 43.0896,
             "lon": -79.0849
         },
@@ -1508,7 +1508,7 @@
             "pais": "Canadá",
             "bandeira": "🇨🇦",
             "endereco": "100 Queens Park",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Royal_Ontario_Museum.jpg/800px-Royal_Ontario_Museum.jpg",
+            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Royal_Ontario_Museum_in_Fall_2021.jpg/1280px-Royal_Ontario_Museum_in_Fall_2021.jpg",
             "lat": 43.6677,
             "lon": -79.3948
         },
@@ -1520,7 +1520,7 @@
             "pais": "Canadá",
             "bandeira": "🇨🇦",
             "endereco": "Stanley Park",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Stanley_Park_in_Vancouver.jpg/800px-Stanley_Park_in_Vancouver.jpg",
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/a6/09/9f/beautiful-view-of-stanley.jpg?w=900&h=500&s=1",
             "lat": 49.3017,
             "lon": -123.1417
         },
@@ -1544,7 +1544,7 @@
             "pais": "Canadá",
             "bandeira": "🇨🇦",
             "endereco": "Gastown, Vancouver",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Gastown_Vancouver.jpg/800px-Gastown_Vancouver.jpg",
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe1ToJJMBWukr6Vh4xtWmshe40kiSWm0ae4A&s",
             "lat": 49.2836,
             "lon": -123.1074
         },
@@ -1556,7 +1556,7 @@
             "pais": "França",
             "bandeira": "🇫🇷",
             "endereco": "Champ de Mars",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/800px-Tour_Eiffel_Wikimedia_Commons.jpg",
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNV6e5NRGBojH0VGLY2ZmKCmBcNIGoFU4HbA&s",
             "lat": 48.8584,
             "lon": 2.2945
         },
@@ -1568,7 +1568,7 @@
             "pais": "França",
             "bandeira": "🇫🇷",
             "endereco": "Rue de Rivoli",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/800px-Louvre_Museum_Wikimedia_Commons.jpg",
+            "imagemUrl": "https://cdn.assets-casacor.tec.br/file/casacor-images-news/2025/10/louvre-chrys-hadrian-1.webp",
             "lat": 48.8606,
             "lon": 2.3376
         },
@@ -1580,7 +1580,7 @@
             "pais": "França",
             "bandeira": "🇫🇷",
             "endereco": "Place d'Armes, Versailles",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Palace_of_Versailles%2C_France.jpg/800px-Palace_of_Versailles%2C_France.jpg",
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyAHEx4EZ1SnxPrRNkbErs7ljNZSX5hmsuEQ&s",
             "lat": 48.8049,
             "lon": 2.1204
         },
@@ -1592,7 +1592,7 @@
             "pais": "França",
             "bandeira": "🇫🇷",
             "endereco": "6 Parvis Notre-Dame",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Cath%C3%A9drale_Notre-Dame_de_Paris%2C_4_October_2018.jpg/800px-Cath%C3%A9drale_Notre-Dame_de_Paris%2C_4_October_2018.jpg",
+            "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUEvkt_F68Vu8hNc5wUPkLFA2P6Ok9TVlagg&s",
             "lat": 48.853,
             "lon": 2.3499
         },
@@ -1604,7 +1604,7 @@
             "pais": "França",
             "bandeira": "🇫🇷",
             "endereco": "Promenade des Anglais",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Nice_Promenade_des_Anglais.jpg/800px-Nice_Promenade_des_Anglais.jpg",
+            "imagemUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/33/84/4a/photo0jpg.jpg?w=900&h=-1&s=1",
             "lat": 43.6961,
             "lon": 7.265
         },
@@ -1616,7 +1616,7 @@
             "pais": "França",
             "bandeira": "🇫🇷",
             "endereco": "Colline du Château",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Nice_Castle_Hill.jpg/800px-Nice_Castle_Hill.jpg",
+            "imagemUrl": "https://dicaparis.com/wp-content/uploads/sites/31/2016/10/Parque-Colina-do-Castelo-em-Nice.jpg",
             "lat": 43.6956,
             "lon": 7.2797
         },
@@ -1628,7 +1628,7 @@
             "pais": "França",
             "bandeira": "🇫🇷",
             "endereco": "Av. Dr. Ménard",
-            "imagemUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Musee_Chagall_Nice.jpg/800px-Musee_Chagall_Nice.jpg",
+            "imagemUrl": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/1d/40/3c.jpg",
             "lat": 43.7157,
             "lon": 7.2666
         },
